@@ -742,11 +742,14 @@ bottom: 0px;
 /*--------- SECCION ELITE TELEFONO VERTICAL-----------*/
 @media (min-width:360px) and (max-width:400px){
 .loguito{
-    height: 70px;
+    height: 75px;
     width: auto;
+    position: relative;
+    top: 40px;
+    left: 63px;
 }
 .nav-mapas{
-    font-size: 15px;
+    font-size: 17px;
 }
 .imagenes--elites img{
 height: 250px;
@@ -780,11 +783,13 @@ margin-left:60px;
 }
 }
 @media (min-width:400px) and (max-width:430px){
-    .loguito{
-        height: 80px;
-        width: auto;
-        margin-left: auto;
-    }
+.loguito{
+height: 75px;
+width: auto;
+position: relative;
+top: 40px;
+left: 75px;
+}
     .nav-mapas{
         font-size: 17px;
     }
@@ -821,9 +826,11 @@ margin-left:60px;
     }
 @media (min-width:430px) and (max-width:500px){
 .loguito{
-height: 80px;
+height: 75px;
 width: auto;
-margin-left: auto;
+position: relative;
+top: 40px;
+left: 99px;
 }
 .nav-mapas{
 font-size: 17px;
@@ -861,11 +868,13 @@ margin-left:60px;
 }
 /*--------- SECCION ELITE TELEFONO HORIZONTAL-----------*/
 @media (min-width:500px) and (max-width:530px){
-    .loguito{
-        height: 80px;
-        width: auto;
-        margin-left: auto;
-    }
+.loguito{
+height: 75px;
+width: auto;
+position: relative;
+top: 40px;
+left: 130px;
+}
     .nav-mapas{
         font-size: 17px;
     }
@@ -903,9 +912,11 @@ margin-left:60px;
 /*--------- SECCION ELITE TELEFONO HORIZONTAL-----------*/
 @media (min-width:530px) and (max-width:600px){
 .loguito{
-height: 80px;
+height: 75px;
 width: auto;
-margin-left: auto;
+position: relative;
+top: 40px;
+left: 155px;
 }
 .nav-mapas{
 font-size: 17px;
@@ -944,9 +955,11 @@ margin-left:60px;
 
 @media (min-width:600px) and (max-width:764px){
 .loguito{
-height: 80px;
+height: 85px;
 width: auto;
-margin-left: auto;
+position: relative;
+top: 40px;
+left: 195px;
 }
 .nav-mapas{
 font-size: 19px;
@@ -985,10 +998,12 @@ margin-left:60px;
 /*----- SECCION ELITE PARA TABLETAS*/
 }
 @media (min-width:764px) and (max-width:844px){
-    .loguito{
-    height: 85px;
-    width: auto;
-    margin-left: auto;
+.loguito{
+height: 85px;
+width: auto;
+position: relative;
+top: 40px;
+left: 270px;
     }
     .nav-mapas{
     font-size: 21px;
@@ -1025,10 +1040,12 @@ margin-left:60px;
     }
 }
 @media (min-width:844px) and (max-width:1000px){
-    .loguito{
-    height: 85px;
-    width: auto;
-    margin-left: auto;
+.loguito{
+height: 85px;
+width: auto;
+position: relative;
+top: 40px;
+left: 330px;
     }
     .nav-mapas{
     font-size: 21px;
@@ -1068,9 +1085,11 @@ margin-left:60px;
 /*------- SECCION ELITES PANTALLAS PANORAMICAS*/
 @media (min-width:1000px) and (max-width:1200px){
 .loguito{
-height: 89px;
+height: 90px;
 width: auto;
-margin-left: auto;
+position: relative;
+top: 40px;
+left: 383px;
 }
 .nav-mapas{
 font-size: 23px;
