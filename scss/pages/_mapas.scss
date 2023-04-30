@@ -1,0 +1,498 @@
+.ubisoft{
+    background-color: #24262a;
+    height: 130px;
+}
+.loguito{
+    height: 100px;
+    padding-left: 50px;
+}
+.titulo-mapita{
+    margin-left: 700px;
+}
+.parrafo-mapas{
+    color: rgba(255, 247, 247, 0.829);
+    font-family:"Glossy";
+    font-size: 15px;
+    padding-left: 140px;
+}
+.fila{
+    img{
+        width: 100%
+    }
+}
+.columna{
+    flex: 25%;
+    padding: 10px;
+    padding-top: 30px;
+    img{
+        margin: 5px;
+        width: 380px;
+        height: 200px;
+        transition: transform .3s ease;
+    }
+}
+#contain-maps{
+    margin-left: 160px;
+}
+.nav-mapas{
+    color: white;
+    text-decoration: none;
+    font-family: "Uni Sans";
+    font-size: 25px;
+    padding: 15px;
+    justify-content:space-between;
+    position: relative;
+    bottom: 80px;
+}
+@media (min-width:350px) and (max-width:385px){
+    .titulo-mapita{
+        margin-left: 23px;
+        font-size: 68px;
+    }
+    .parrafo-mapas{
+        color: rgba(255, 247, 247, 0.829);
+        font-family:"Glossy";
+        font-size: 15px;
+        position: relative;
+        right: 60px;
+        bottom: 95px;
+    }
+    .fila{
+        img{
+            width: 100%
+        }
+    }
+    .columna{
+        flex: 25%;
+        padding: 10px;
+        padding-top: 30px;
+        img{
+            margin: 5px;
+            width: 350px;
+            height: 200px;
+            transition: transform .3s ease;
+        }
+    }
+    #contain-maps{
+        position: relative;
+        right: 170px;
+    }
+}
+@media (min-width:385px) and (max-width:420px){
+    .titulo-mapita{
+        margin-left: 23px;
+        font-size: 68px;
+    }
+    .parrafo-mapas{
+        color: rgba(255, 247, 247, 0.829);
+        font-family:"Glossy";
+        font-size: 15px;
+        position: relative;
+        right: 60px;
+        bottom: 95px;
+    }
+    .fila{
+        img{
+            width: 100%
+        }
+    }
+    .columna{
+        flex: 25%;
+        padding: 10px;
+        padding-top: 30px;
+        img{
+            margin: 5px;
+            width: 350px;
+            height: 200px;
+            transition: transform .3s ease;
+        }
+    }
+    #contain-maps{
+        position: relative;
+        right: 150px;
+    }
+}
+@media (min-width:385px) and (max-width:420px){
+    .titulo-mapita{
+        margin-left: 50px;
+        font-size: 70px;
+    }
+    .parrafo-mapas{
+        color: rgba(255, 247, 247, 0.829);
+        font-family:"Glossy";
+        font-size: 15px;
+        position: relative;
+        right: 60px;
+        bottom: 95px;
+    }
+    .fila{
+        img{
+            width: 100%
+        }
+    }
+    .columna{
+        flex: 25%;
+        padding: 10px;
+        padding-top: 30px;
+        img{
+            margin: 5px;
+            width: 350px;
+            height: 200px;
+            transition: transform .3s ease;
+        }
+    }
+    #contain-maps{
+        position: relative;
+        right: 145px;
+    }
+}
+@media (min-width:420px) and (max-width:470px){
+    .titulo-mapita{
+        margin-left: 50px;
+        font-size: 70px;
+    }
+    .parrafo-mapas{
+        color: rgba(255, 247, 247, 0.829);
+        font-family:"Glossy";
+        font-size: 15px;
+        position: relative;
+        right: 60px;
+        bottom: 95px;
+    }
+    .fila{
+        img{
+            width: 100%
+        }
+    }
+    .columna{
+        flex: 25%;
+        padding: 10px;
+        padding-top: 30px;
+        img{
+            margin: 5px;
+            width: 350px;
+            height: 200px;
+            transition: transform .3s ease;
+        }
+    }
+    #contain-maps{
+        position: relative;
+        right: 125px;
+    }
+}
+@media (min-width:470px) and (max-width:500px){
+    .titulo-mapita{
+        margin-left: 50px;
+        font-size: 70px;
+    }
+    .parrafo-mapas{
+        color: rgba(255, 247, 247, 0.829);
+        font-family:"Glossy";
+        font-size: 15px;
+        position: relative;
+        right: 60px;
+        bottom: 95px;
+    }
+    .fila{
+        img{
+            width: 100%
+        }
+    }
+    .columna{
+        flex: 25%;
+        padding: 10px;
+        padding-top: 30px;
+        img{
+            margin: 5px;
+            width: 350px;
+            height: 200px;
+            transition: transform .3s ease;
+        }
+    }
+    #contain-maps{
+        position: relative;
+        right: 100px;
+    }
+}
+@media (min-width:500px) and (max-width:570px){
+    .titulo-mapita{
+        margin-left: 80px;
+        font-size: 75px;
+    }
+    .parrafo-mapas{
+        color: rgba(255, 247, 247, 0.829);
+        font-family:"Glossy";
+        font-size: 15px;
+        position: relative;
+        right: 60px;
+        bottom: 95px;
+    }
+    .fila{
+        img{
+            width: 100%
+        }
+    }
+    .columna{
+        flex: 25%;
+        padding: 10px;
+        padding-top: 30px;
+        img{
+            margin: 5px;
+            width: 350px;
+            height: 200px;
+            transition: transform .3s ease;
+        }
+    }
+    #contain-maps{
+        position: relative;
+        right: 80px;
+    }
+}
+@media (min-width:570px) and (max-width:640px){
+    .titulo-mapita{
+        margin-left: 80px;
+        font-size: 75px;
+    }
+    .parrafo-mapas{
+        color: rgba(255, 247, 247, 0.829);
+        font-family:"Glossy";
+        font-size: 15px;
+        position: relative;
+        right: 60px;
+        bottom: 95px;
+    }
+    .fila{
+        img{
+            width: 100%
+        }
+    }
+    .columna{
+        flex: 25%;
+        padding: 10px;
+        padding-top: 30px;
+        img{
+            margin: 5px;
+            width: 350px;
+            height: 200px;
+            transition: transform .3s ease;
+        }
+    }
+    #contain-maps{
+        position: relative;
+        right: 50px;
+    }
+}
+@media (min-width:640px) and (max-width:700px){
+    .titulo-mapita{
+        margin-left: 150px;
+        font-size: 75px;
+    }
+    .parrafo-mapas{
+        color: rgba(255, 247, 247, 0.829);
+        font-family:"Glossy";
+        font-size: 15px;
+        position: relative;
+        right: 60px;
+        bottom: 95px;
+    }
+    .fila{
+        img{
+            width: 100%
+        }
+    }
+    .columna{
+        flex: 25%;
+        padding: 10px;
+        padding-top: 30px;
+        img{
+            margin: 5px;
+            width: 350px;
+            height: 200px;
+            transition: transform .3s ease;
+        }
+    }
+    #contain-maps{
+        position: relative;
+        right: -10px;
+    }
+}
+@media (min-width:700px) and (max-width:764px){
+    .titulo-mapita{
+        margin-left: 190px;
+        font-size: 75px;
+    }
+    .parrafo-mapas{
+        color: rgba(255, 247, 247, 0.829);
+        font-family:"Glossy";
+        font-size: 15px;
+        position: relative;
+        right: 60px;
+        bottom: 95px;
+    }
+    .fila{
+        img{
+            width: 100%
+        }
+    }
+    .columna{
+        flex: 25%;
+        padding: 10px;
+        padding-top: 30px;
+        img{
+            margin: 5px;
+            width: 350px;
+            height: 200px;
+            transition: transform .3s ease;
+        }
+    }
+    #contain-maps{
+        position: relative;
+        right: -25px;
+    }
+}
+@media (min-width:764px) and (max-width:864px){
+    .titulo-mapita{
+        margin-left: 230px;
+        font-size: 75px;
+    }
+    .parrafo-mapas{
+        color: rgba(255, 247, 247, 0.829);
+        font-family:"Glossy";
+        font-size: 15px;
+        position: relative;
+        right: 60px;
+        bottom: 95px;
+    }
+    .fila{
+        img{
+            width: 100%
+        }
+    }
+    .columna{
+        flex: 25%;
+        padding: 10px;
+        padding-top: 30px;
+        img{
+            margin: 5px;
+            width: 350px;
+            height: 200px;
+            transition: transform .3s ease;
+        }
+    }
+    #contain-maps{
+        position: relative;
+        right: -75px;
+    }
+}
+@media (min-width:864px) and (max-width:904px){
+    .titulo-mapita{
+        margin-left: 240px;
+        font-size: 95px;
+    }
+    .parrafo-mapas{
+        color: rgba(255, 247, 247, 0.829);
+        font-family:"Glossy";
+        font-size: 15px;
+        position: relative;
+        right: 60px;
+        bottom: 95px;
+    }
+    .fila{
+        img{
+            width: 100%
+        }
+    }
+    .columna{
+        flex: 25%;
+        padding: 10px;
+        padding-top: 30px;
+        img{
+            margin: 5px;
+            width: 350px;
+            height: 200px;
+            transition: transform .3s ease;
+        }
+    }
+    #contain-maps{
+        position: relative;
+        right: -120px;
+    }
+}
+@media (min-width:904px) and (max-width:1000px){
+    .titulo-mapita{
+        margin-left: 240px;
+        font-size: 95px;
+    }
+    .parrafo-mapas{
+        color: rgba(255, 247, 247, 0.829);
+        font-family:"Glossy";
+        font-size: 15px;
+        position: relative;
+        right: 60px;
+        bottom: 95px;
+    }
+    .fila{
+        img{
+            width: 100%
+        }
+    }
+    .columna{
+        flex: 25%;
+        padding: 10px;
+        padding-top: 30px;
+        img{
+            margin: 5px;
+            width: 350px;
+            height: 200px;
+            transition: transform .3s ease;
+        }
+    }
+    #contain-maps{
+        position: relative;
+        right: 60px;
+    }
+}
+@media (min-width:1000px) and (max-width:1200px){
+    .titulo-mapita{
+        margin-left: 320px;
+        font-size: 95px;
+    }
+    .parrafo-mapas{
+        color: rgba(255, 247, 247, 0.829);
+        font-family:"Glossy";
+        font-size: 15px;
+        position: relative;
+        right: 60px;
+        bottom: 95px;
+    }
+    .fila{
+        img{
+            width: 100%
+        }
+    }
+    .columna{
+        flex: 25%;
+        padding: 10px;
+        padding-top: 30px;
+        img{
+            margin: 5px;
+            width: 350px;
+            height: 200px;
+            transition: transform .3s ease;
+        }
+    }
+    #contain-maps{
+        position: relative;
+        right: -10px;
+    }
+}
+@media (min-width:1200px) and (max-width:1250px){
+    .titulo-mapita{
+        margin-left: 430px;
+        font-size: 95px;
+    }
+    #contain-maps{
+        position: relative;
+        right: -130px;
+    }
+}

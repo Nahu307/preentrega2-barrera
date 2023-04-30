@@ -1,0 +1,33 @@
+.equipamiento{
+    text-align: center;
+}
+.titulo-historial{
+    position: relative;
+    top: -800px;
+    left: 1350px;
+}
+.fondito{
+    background-color: grey;
+    width: 290px;
+    height: 110px;
+    margin-left: 140px;
+    border: solid 5px grey;
+}
+.armas{
+    height: 100px;
+    justify-content: center;
+    padding-top: 45px;
+}
+.arma--principal{
+    font-family: R6;
+    position: relative;
+    right: 460px;
+}
+.video--type{
+    display: flex;
+    position: absolute;
+    left: 1070px;
+    bottom: 150px;
+    width: 700px;
+    height: 450px;
+}

@@ -1,0 +1,24 @@
+.header--principal{
+    display: flex;
+    height: 177px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icono{
+    height: 100px;
+    width: auto;
+    margin-left: auto;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+.nav-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: "Uni Sans";
+    font-size: 25px;
+
+}

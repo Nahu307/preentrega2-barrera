@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+}
+img{
+    height: $tamaño-agentes;
+}
+body{
+background-image:url(../img/Fondo\ r6.jpg);
+}
+/*FONTS*/
+@font-face {
+    font-family:"Rainbow" ;
+    src: url(../fonts/Rainbow.ttf);
+}
+@font-face {
+    font-family:"Uni Sans" ;
+    src: url(../fonts/Uni\ Sans\ Bold.ttf);
+}
+@font-face {
+    font-family:"Letra Cheta" ;
+    src: url(../fonts/Unknown\ Galaxy\ Italic.ttf);
+}
+@font-face {
+    font-family:"Glossy" ;
+    src: url(../fonts/Prompt-Medium.ttf);
+}
+@font-face {
+    font-family: R6;
+    src: url(https://static-dm.ubisoft.com/siege/prod/c69c158ebd475ce7383a484052372f19.woff2) format("woff2"),url(https://static-dm.ubisoft.com/siege/prod/5165e561a75de43dc9f30abeaf21df0a.woff) format("woff");
+    font-weight: 400;
+    font-style: normal
+}
+@font-face {
+    font-family: R6S;
+    src: url(https://static-dm.ubisoft.com/siege/prod/e891b9de169c0ec6e3a13c9b7693586f.woff2) format("woff2"),url(https://static-dm.ubisoft.com/siege/prod/28960cde20e07caca349ff91b8a6ea67.woff) format("woff");
+    font-weight: 400;
+    font-style: normal
+}
+h1{
+    color: rgb(255, 255, 255);
+    resize: both;
+    overflow: auto;
+    height: 200px;
+    background-size: contain;
+    background-attachment: fixed;
+    font-family: "Rainbow";
+    font-size: 100px;
+}
+/*------TITULOS SECUNDARIOS*------*/
+h2{
+    color: rgba(255, 255, 255, 0.829);
+    font-family: "Rainbow";
+    font-size: 70px;
+}
+
+/*------TITULOS TERCIARIOS-------*/
+h3{
+    color: rgba(255, 255, 255, 0.829);
+    font-family: "Rainbow";
+    font-size: 70px;
+
+}
+h4{
+    color: rgba(255, 255, 255, 0.829);
+    font-family: "Rainbow";
+    font-size: 40px;
+    margin-left: 650px;
+}

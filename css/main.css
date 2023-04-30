@@ -1,0 +1,2333 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+}
+
+img {
+  height: 800px;
+}
+
+body {
+  background-image: url(../img/Fondo\ r6.jpg);
+}
+
+/*FONTS*/
+@font-face {
+  font-family: "Rainbow";
+  src: url(../fonts/Rainbow.ttf);
+}
+@font-face {
+  font-family: "Uni Sans";
+  src: url(../fonts/Uni\ Sans\ Bold.ttf);
+}
+@font-face {
+  font-family: "Letra Cheta";
+  src: url(../fonts/Unknown\ Galaxy\ Italic.ttf);
+}
+@font-face {
+  font-family: "Glossy";
+  src: url(../fonts/Prompt-Medium.ttf);
+}
+@font-face {
+  font-family: R6;
+  src: url(https://static-dm.ubisoft.com/siege/prod/c69c158ebd475ce7383a484052372f19.woff2) format("woff2"), url(https://static-dm.ubisoft.com/siege/prod/5165e561a75de43dc9f30abeaf21df0a.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: R6S;
+  src: url(https://static-dm.ubisoft.com/siege/prod/e891b9de169c0ec6e3a13c9b7693586f.woff2) format("woff2"), url(https://static-dm.ubisoft.com/siege/prod/28960cde20e07caca349ff91b8a6ea67.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  color: rgb(255, 255, 255);
+  resize: both;
+  overflow: auto;
+  height: 200px;
+  background-size: contain;
+  background-attachment: fixed;
+  font-family: "Rainbow";
+  font-size: 100px;
+}
+
+/*------TITULOS SECUNDARIOS*------*/
+h2 {
+  color: rgba(255, 255, 255, 0.829);
+  font-family: "Rainbow";
+  font-size: 70px;
+}
+
+/*------TITULOS TERCIARIOS-------*/
+h3 {
+  color: rgba(255, 255, 255, 0.829);
+  font-family: "Rainbow";
+  font-size: 70px;
+}
+
+h4 {
+  color: rgba(255, 255, 255, 0.829);
+  font-family: "Rainbow";
+  font-size: 40px;
+  margin-left: 650px;
+}
+
+.header--principal {
+  display: flex;
+  height: 177px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icono {
+  height: 100px;
+  width: auto;
+  margin-left: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-family: "Uni Sans";
+  font-size: 25px;
+}
+
+.defensores img, .atacantes img {
+  height: 90px;
+}
+
+.titulodef {
+  text-align: left;
+  padding-left: 42px;
+}
+
+.pie {
+  background-color: #101114;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+span {
+  font-size: 23px;
+}
+
+.section {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.section div {
+  display: flex;
+  flex-direction: column;
+}
+
+.plataformas {
+  font-family: "Uni Sans";
+  font-size: 27px;
+}
+
+.xboxgame, .xboxseries, .xboxone, .Ps4, .Ps5 {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-family: "Uni Sans";
+  font-size: 25px;
+}
+
+.logoo {
+  height: 100px;
+  width: 200px;
+  margin-left: 840px;
+}
+
+.privacidad {
+  height: 100px;
+  margin-left: 1550px;
+  position: relative;
+  bottom: 100px;
+}
+
+.r6 {
+  height: 100px;
+  margin-left: 1660px;
+  position: relative;
+  bottom: 203px;
+}
+
+.hr {
+  position: relative;
+  bottom: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+ul li {
+  list-style: none;
+  margin: 0 15px;
+}
+ul li a {
+  position: relative;
+  display: block;
+  width: 43px;
+  height: 43px;
+  text-align: center;
+  line-height: 42px;
+  background: #080808;
+  border-radius: 50%;
+  font-size: 30px;
+  color: #202020;
+  transition: 0.5s;
+}
+ul li a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #0a47c9;
+  transition: 0.5s;
+  transform: scale(0.9);
+  z-index: -1;
+}
+ul li a:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #ffffff;
+}
+ul li a:hover {
+  color: #0a47c9;
+  box-shadow: 0 0 5px #0a47c9;
+  text-shadow: 0 0 5px #0a47c9;
+}
+
+@media (min-width: 350px) and (max-width: 678px) {
+  ul {
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    transform: translate(-50%, -50%);
+  }
+  ul li {
+    list-style: none;
+    margin: 0 15px;
+  }
+  ul li a {
+    position: relative;
+    display: flex;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 38px;
+    background: #080808;
+    border-radius: 50%;
+    color: #202020;
+    transition: 0.5s;
+    justify-content: center;
+  }
+  ul li a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #0a47c9;
+    transition: 0.5s;
+    transform: scale(0.9);
+    z-index: -1;
+  }
+  ul li a:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #ffffff;
+  }
+  ul li a:hover {
+    color: #0a47c9;
+    box-shadow: 0 0 5px #0a47c9;
+    text-shadow: 0 0 5px #0a47c9;
+  }
+}
+.equipamiento {
+  text-align: center;
+}
+
+.titulo-historial {
+  position: relative;
+  top: -800px;
+  left: 1350px;
+}
+
+.fondito {
+  background-color: grey;
+  width: 290px;
+  height: 110px;
+  margin-left: 140px;
+  border: solid 5px grey;
+}
+
+.armas {
+  height: 100px;
+  justify-content: center;
+  padding-top: 45px;
+}
+
+.arma--principal {
+  font-family: R6;
+  position: relative;
+  right: 460px;
+}
+
+.video--type {
+  display: flex;
+  position: absolute;
+  left: 1070px;
+  bottom: 150px;
+  width: 700px;
+  height: 450px;
+}
+
+.titulo-battle {
+  text-align: center;
+  margin: 82px;
+}
+
+.parrafo-battle {
+  color: rgba(255, 247, 247, 0.829);
+  font-family: "Glossy";
+  font-size: 15px;
+  padding-left: 140px;
+  position: relative;
+  bottom: 35px;
+}
+
+.parrafo-battlepass {
+  color: rgba(255, 247, 247, 0.829);
+  font-family: "Glossy";
+  font-size: 15px;
+  position: relative;
+  left: 140px;
+}
+
+.item-battle {
+  color: rgba(255, 247, 247, 0.829);
+  font-family: "Glossy";
+  font-size: 15px;
+  padding-left: 160px;
+}
+
+.battlepass-video {
+  margin-left: 650px;
+}
+
+.brava {
+  height: 900px;
+  background-image: url(../img/R6S_brava_biography.avif);
+  background-size: cover;
+  background-position: center;
+}
+
+.titulo-brava {
+  text-align: center;
+  padding-top: 550px;
+  margin: 0;
+}
+
+.titulito {
+  text-align: center;
+  margin: 0;
+}
+
+.parrafito {
+  color: rgba(255, 247, 247, 0.829);
+  font-family: "Glossy";
+  font-size: 15px;
+  margin: 0;
+  text-align: center;
+}
+
+.icono-brava {
+  height: 130px;
+  margin-left: 900px;
+  position: relative;
+  bottom: -20px;
+}
+
+@media (min-width: 360px) and (max-width: 410px) {
+  .titulo-battle {
+    font-size: 90px;
+    text-align: center;
+    margin: 5px;
+  }
+  .parrafo-battle {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    padding-left: 30px;
+    position: relative;
+    top: 30px;
+  }
+  .parrafo-battlepass {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    position: relative;
+    left: 4px;
+    top: 65px;
+  }
+  .item-battle {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    padding-left: 30px;
+    position: relative;
+    top: 50px;
+  }
+  .brava {
+    height: 900px;
+    background-image: url(../img/kaven-perreault-brava-1.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .titulo-brava {
+    font-size: 90px;
+    text-align: center;
+    padding-top: 350px;
+    margin: 0;
+  }
+  .titulito {
+    font-size: 70px;
+    text-align: center;
+    margin: 0;
+  }
+  .parrafito {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+  }
+  .icono-brava {
+    height: 110px;
+    margin-left: 100px;
+    position: relative;
+    bottom: -30px;
+    left: 30px;
+  }
+  .mapa-battlepass {
+    height: 170px;
+  }
+}
+@media (min-width: 410px) and (max-width: 468px) {
+  .titulo-battle {
+    font-size: 90px;
+    text-align: center;
+    margin: 5px;
+  }
+  .parrafo-battle {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    padding-left: 30px;
+    position: relative;
+    top: 30px;
+  }
+  .parrafo-battlepass {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+    top: 65px;
+  }
+  .item-battle {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    padding-left: 30px;
+    position: relative;
+    top: 50px;
+  }
+  .brava {
+    height: 900px;
+    background-image: url(../img/kaven-perreault-brava-1.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .titulo-brava {
+    font-size: 90px;
+    text-align: center;
+    padding-top: 350px;
+    margin: 0;
+  }
+  .titulito {
+    font-size: 70px;
+    text-align: center;
+    margin: 0;
+  }
+  .parrafito {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+  }
+  .icono-brava {
+    height: 110px;
+    margin-left: 100px;
+    position: relative;
+    bottom: -30px;
+    left: 55px;
+  }
+  .mapa-battlepass {
+    height: 200px;
+  }
+}
+@media (min-width: 468px) and (max-width: 482px) {
+  .titulo-battle {
+    font-size: 90px;
+    text-align: center;
+    margin: 5px;
+  }
+  .parrafo-battle {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    padding-left: 30px;
+    position: relative;
+    top: 30px;
+  }
+  .parrafo-battlepass {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+    top: 65px;
+  }
+  .item-battle {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    padding-left: 30px;
+    position: relative;
+    top: 50px;
+  }
+  .brava {
+    height: 900px;
+    background-image: url(../img/kaven-perreault-brava-1.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .titulo-brava {
+    font-size: 90px;
+    text-align: center;
+    padding-top: 350px;
+    margin: 0;
+  }
+  .titulito {
+    font-size: 70px;
+    text-align: center;
+    margin: 0;
+  }
+  .parrafito {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+  }
+  .icono-brava {
+    height: 110px;
+    margin-left: 100px;
+    position: relative;
+    bottom: -30px;
+    left: 85px;
+  }
+  .mapa-battlepass {
+    height: 230px;
+  }
+}
+@media (min-width: 482px) and (max-width: 510px) {
+  .titulo-battle {
+    font-size: 90px;
+    text-align: center;
+    margin: 5px;
+  }
+  .parrafo-battle {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    padding-left: 30px;
+    position: relative;
+    top: 30px;
+  }
+  .battlepass-video {
+    margin-left: 1px;
+    height: 200px;
+    width: 350px;
+    position: relative;
+    top: 130px;
+    left: 30px;
+  }
+  .parrafo-battlepass {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+    top: 65px;
+  }
+  .item-battle {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    padding-left: 30px;
+    position: relative;
+    top: 50px;
+  }
+  .brava {
+    height: 900px;
+    background-image: url(../img/Brava_poster.webp);
+    background-size: cover;
+  }
+  .titulo-brava {
+    font-size: 90px;
+    text-align: center;
+    padding-top: 350px;
+    margin: 0;
+  }
+  .titulito {
+    font-size: 75px;
+    text-align: center;
+    margin: 0;
+  }
+  .parrafito {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+  }
+  .icono-brava {
+    height: 110px;
+    margin-left: 100px;
+    position: relative;
+    bottom: -30px;
+    left: 85px;
+  }
+  .mapa-battlepass {
+    height: 250px;
+  }
+}
+@media (min-width: 510px) and (max-width: 600px) {
+  .titulo-battle {
+    font-size: 90px;
+    text-align: center;
+    margin: 5px;
+  }
+  .parrafo-battle {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    padding-left: 30px;
+    position: relative;
+    top: 30px;
+  }
+  .parrafo-battlepass {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+    top: 65px;
+  }
+  .battlepass-video {
+    margin-left: 1px;
+    height: 200px;
+    width: 400px;
+    position: relative;
+    top: 130px;
+    left: 60px;
+  }
+  .item-battle {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    padding-left: 30px;
+    position: relative;
+    top: 50px;
+  }
+  .brava {
+    height: 900px;
+    background-image: url(../img/Brava_poster.webp);
+    background-size: cover;
+    background-position: center;
+  }
+  .titulo-brava {
+    font-size: 90px;
+    text-align: center;
+    padding-top: 350px;
+    margin: 0;
+  }
+  .titulito {
+    font-size: 70px;
+    text-align: center;
+    margin: 0;
+  }
+  .parrafito {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+  }
+  .icono-brava {
+    height: 110px;
+    margin-left: 100px;
+    position: relative;
+    bottom: -30px;
+    left: 130px;
+  }
+  .mapa-battlepass {
+    height: 230px;
+  }
+}
+@media (min-width: 600px) and (max-width: 700px) {
+  .titulo-battle {
+    font-size: 95px;
+    text-align: center;
+    margin: 5px;
+  }
+  .parrafo-battle {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    padding-left: 30px;
+    position: relative;
+    top: 30px;
+  }
+  .battlepass-video {
+    margin-left: 1px;
+    height: 350px;
+    width: 500px;
+    position: relative;
+    top: 130px;
+    left: 20px;
+  }
+  .parrafo-battlepass {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+    top: 65px;
+  }
+  .item-battle {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    padding-left: 30px;
+    position: relative;
+    top: 50px;
+  }
+  .brava {
+    height: 900px;
+    background-image: url(../img/Brava_poster.webp);
+    background-size: cover;
+  }
+  .titulo-brava {
+    font-size: 90px;
+    text-align: center;
+    padding-top: 350px;
+    margin: 0;
+  }
+  .titulito {
+    font-size: 75px;
+    text-align: center;
+    margin: 0;
+  }
+  .parrafito {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+  }
+  .icono-brava {
+    height: 110px;
+    margin-left: 100px;
+    position: relative;
+    bottom: -30px;
+    left: 175px;
+  }
+  .mapa-battlepass {
+    height: 260px;
+  }
+}
+@media (min-width: 700px) and (max-width: 800px) {
+  .titulo-battle {
+    font-size: 95px;
+    text-align: center;
+    margin: 5px;
+  }
+  .parrafo-battle {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    padding-left: 30px;
+    position: relative;
+    top: 30px;
+  }
+  .battlepass-video {
+    margin-left: 1px;
+    height: 350px;
+    width: 500px;
+    position: relative;
+    top: 130px;
+    left: 60px;
+  }
+  .parrafo-battlepass {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+    top: 65px;
+  }
+  .item-battle {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    padding-left: 30px;
+    position: relative;
+    top: 50px;
+  }
+  .brava {
+    height: 900px;
+    background-image: url(../img/Brava_poster.webp);
+    background-size: cover;
+  }
+  .titulo-brava {
+    font-size: 90px;
+    text-align: center;
+    padding-top: 350px;
+    margin: 0;
+  }
+  .titulito {
+    font-size: 75px;
+    text-align: center;
+    margin: 0;
+  }
+  .parrafito {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+  }
+  .icono-brava {
+    height: 110px;
+    margin-left: 100px;
+    position: relative;
+    bottom: -30px;
+    left: 230px;
+  }
+  .mapa-battlepass {
+    height: 320px;
+  }
+}
+@media (min-width: 800px) and (max-width: 900px) {
+  .titulo-battle {
+    font-size: 95px;
+    text-align: center;
+    margin: 5px;
+  }
+  .parrafo-battle {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    padding-left: 30px;
+    position: relative;
+    top: 30px;
+  }
+  .battlepass-video {
+    margin-left: 1px;
+    height: 250px;
+    width: 450px;
+    position: relative;
+    top: 130px;
+    left: 130px;
+  }
+  .parrafo-battlepass {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+    top: 65px;
+  }
+  .item-battle {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    padding-left: 30px;
+    position: relative;
+    top: 50px;
+  }
+  .brava {
+    height: 900px;
+    background-size: cover;
+  }
+  .titulo-brava {
+    font-size: 90px;
+    text-align: center;
+    padding-top: 450px;
+    margin: 0;
+  }
+  .titulito {
+    font-size: 85px;
+    text-align: center;
+    margin: 0;
+  }
+  .parrafito {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+  }
+  .icono-brava {
+    height: 110px;
+    margin-left: 100px;
+    position: relative;
+    bottom: -30px;
+    left: 280px;
+  }
+  .mapa-battlepass {
+    height: 360px;
+  }
+}
+@media (min-width: 900px) and (max-width: 1024px) {
+  .titulo-battle {
+    font-size: 95px;
+    text-align: center;
+    margin: 5px;
+  }
+  .parrafo-battle {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    padding-left: 30px;
+    position: relative;
+    top: 30px;
+  }
+  .battlepass-video {
+    margin-left: 1px;
+    height: 250px;
+    width: 450px;
+    position: relative;
+    top: 130px;
+    left: 250px;
+  }
+  .parrafo-battlepass {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+    top: 65px;
+  }
+  .item-battle {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    padding-left: 30px;
+    position: relative;
+    top: 50px;
+  }
+  .brava {
+    height: 900px;
+    background-size: cover;
+  }
+  .titulo-brava {
+    font-size: 90px;
+    text-align: center;
+    padding-top: 450px;
+    margin: 0;
+  }
+  .titulito {
+    font-size: 85px;
+    text-align: center;
+    margin: 0;
+  }
+  .parrafito {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+  }
+  .icono-brava {
+    height: 110px;
+    margin-left: 100px;
+    position: relative;
+    bottom: -30px;
+    left: 310px;
+  }
+  .mapa-battlepass {
+    height: 430px;
+  }
+}
+@media (min-width: 1020px) and (max-width: 1200px) {
+  .titulo-battle {
+    font-size: 95px;
+    text-align: center;
+    margin: 5px;
+  }
+  .parrafo-battle {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    padding-left: 30px;
+    position: relative;
+    top: 30px;
+  }
+  .battlepass-video {
+    margin-left: 1px;
+    height: 250px;
+    width: 450px;
+    position: relative;
+    top: 130px;
+    left: 280px;
+  }
+  .parrafo-battlepass {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+    top: 65px;
+  }
+  .item-battle {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    padding-left: 30px;
+    position: relative;
+    top: 50px;
+  }
+  .brava {
+    height: 900px;
+    background-size: cover;
+  }
+  .titulo-brava {
+    font-size: 90px;
+    text-align: center;
+    padding-top: 450px;
+    margin: 0;
+  }
+  .titulito {
+    font-size: 85px;
+    text-align: center;
+    margin: 0;
+  }
+  .parrafito {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+  }
+  .icono-brava {
+    height: 110px;
+    margin-left: 100px;
+    position: relative;
+    bottom: -30px;
+    left: 370px;
+  }
+  .mapa-battlepass {
+    height: 480px;
+  }
+}
+.elite-th {
+  height: 730px;
+  padding: 15px;
+}
+
+.elite-gl {
+  margin-left: 85px;
+  padding: 25px;
+}
+
+.elite-hi {
+  padding: 25px;
+}
+
+.elite-pu {
+  padding: 25px;
+}
+
+.ubisoft {
+  background-color: #24262a;
+  height: 130px;
+}
+
+.loguito {
+  height: 100px;
+  padding-left: 50px;
+}
+
+.titulo-mapita {
+  margin-left: 700px;
+}
+
+.parrafo-mapas {
+  color: rgba(255, 247, 247, 0.829);
+  font-family: "Glossy";
+  font-size: 15px;
+  padding-left: 140px;
+}
+
+.fila img {
+  width: 100%;
+}
+
+.columna {
+  flex: 25%;
+  padding: 10px;
+  padding-top: 30px;
+}
+.columna img {
+  margin: 5px;
+  width: 380px;
+  height: 200px;
+  transition: transform 0.3s ease;
+}
+
+#contain-maps {
+  margin-left: 160px;
+}
+
+.nav-mapas {
+  color: white;
+  text-decoration: none;
+  font-family: "Uni Sans";
+  font-size: 25px;
+  padding: 15px;
+  justify-content: space-between;
+  position: relative;
+  bottom: 80px;
+}
+
+@media (min-width: 350px) and (max-width: 385px) {
+  .titulo-mapita {
+    margin-left: 23px;
+    font-size: 68px;
+  }
+  .parrafo-mapas {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    position: relative;
+    right: 60px;
+    bottom: 95px;
+  }
+  .fila img {
+    width: 100%;
+  }
+  .columna {
+    flex: 25%;
+    padding: 10px;
+    padding-top: 30px;
+  }
+  .columna img {
+    margin: 5px;
+    width: 350px;
+    height: 200px;
+    transition: transform 0.3s ease;
+  }
+  #contain-maps {
+    position: relative;
+    right: 170px;
+  }
+}
+@media (min-width: 385px) and (max-width: 420px) {
+  .titulo-mapita {
+    margin-left: 23px;
+    font-size: 68px;
+  }
+  .parrafo-mapas {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    position: relative;
+    right: 60px;
+    bottom: 95px;
+  }
+  .fila img {
+    width: 100%;
+  }
+  .columna {
+    flex: 25%;
+    padding: 10px;
+    padding-top: 30px;
+  }
+  .columna img {
+    margin: 5px;
+    width: 350px;
+    height: 200px;
+    transition: transform 0.3s ease;
+  }
+  #contain-maps {
+    position: relative;
+    right: 150px;
+  }
+}
+@media (min-width: 385px) and (max-width: 420px) {
+  .titulo-mapita {
+    margin-left: 50px;
+    font-size: 70px;
+  }
+  .parrafo-mapas {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    position: relative;
+    right: 60px;
+    bottom: 95px;
+  }
+  .fila img {
+    width: 100%;
+  }
+  .columna {
+    flex: 25%;
+    padding: 10px;
+    padding-top: 30px;
+  }
+  .columna img {
+    margin: 5px;
+    width: 350px;
+    height: 200px;
+    transition: transform 0.3s ease;
+  }
+  #contain-maps {
+    position: relative;
+    right: 145px;
+  }
+}
+@media (min-width: 420px) and (max-width: 470px) {
+  .titulo-mapita {
+    margin-left: 50px;
+    font-size: 70px;
+  }
+  .parrafo-mapas {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    position: relative;
+    right: 60px;
+    bottom: 95px;
+  }
+  .fila img {
+    width: 100%;
+  }
+  .columna {
+    flex: 25%;
+    padding: 10px;
+    padding-top: 30px;
+  }
+  .columna img {
+    margin: 5px;
+    width: 350px;
+    height: 200px;
+    transition: transform 0.3s ease;
+  }
+  #contain-maps {
+    position: relative;
+    right: 125px;
+  }
+}
+@media (min-width: 470px) and (max-width: 500px) {
+  .titulo-mapita {
+    margin-left: 50px;
+    font-size: 70px;
+  }
+  .parrafo-mapas {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    position: relative;
+    right: 60px;
+    bottom: 95px;
+  }
+  .fila img {
+    width: 100%;
+  }
+  .columna {
+    flex: 25%;
+    padding: 10px;
+    padding-top: 30px;
+  }
+  .columna img {
+    margin: 5px;
+    width: 350px;
+    height: 200px;
+    transition: transform 0.3s ease;
+  }
+  #contain-maps {
+    position: relative;
+    right: 100px;
+  }
+}
+@media (min-width: 500px) and (max-width: 570px) {
+  .titulo-mapita {
+    margin-left: 80px;
+    font-size: 75px;
+  }
+  .parrafo-mapas {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    position: relative;
+    right: 60px;
+    bottom: 95px;
+  }
+  .fila img {
+    width: 100%;
+  }
+  .columna {
+    flex: 25%;
+    padding: 10px;
+    padding-top: 30px;
+  }
+  .columna img {
+    margin: 5px;
+    width: 350px;
+    height: 200px;
+    transition: transform 0.3s ease;
+  }
+  #contain-maps {
+    position: relative;
+    right: 80px;
+  }
+}
+@media (min-width: 570px) and (max-width: 640px) {
+  .titulo-mapita {
+    margin-left: 80px;
+    font-size: 75px;
+  }
+  .parrafo-mapas {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    position: relative;
+    right: 60px;
+    bottom: 95px;
+  }
+  .fila img {
+    width: 100%;
+  }
+  .columna {
+    flex: 25%;
+    padding: 10px;
+    padding-top: 30px;
+  }
+  .columna img {
+    margin: 5px;
+    width: 350px;
+    height: 200px;
+    transition: transform 0.3s ease;
+  }
+  #contain-maps {
+    position: relative;
+    right: 50px;
+  }
+}
+@media (min-width: 640px) and (max-width: 700px) {
+  .titulo-mapita {
+    margin-left: 150px;
+    font-size: 75px;
+  }
+  .parrafo-mapas {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    position: relative;
+    right: 60px;
+    bottom: 95px;
+  }
+  .fila img {
+    width: 100%;
+  }
+  .columna {
+    flex: 25%;
+    padding: 10px;
+    padding-top: 30px;
+  }
+  .columna img {
+    margin: 5px;
+    width: 350px;
+    height: 200px;
+    transition: transform 0.3s ease;
+  }
+  #contain-maps {
+    position: relative;
+    right: -10px;
+  }
+}
+@media (min-width: 700px) and (max-width: 764px) {
+  .titulo-mapita {
+    margin-left: 190px;
+    font-size: 75px;
+  }
+  .parrafo-mapas {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    position: relative;
+    right: 60px;
+    bottom: 95px;
+  }
+  .fila img {
+    width: 100%;
+  }
+  .columna {
+    flex: 25%;
+    padding: 10px;
+    padding-top: 30px;
+  }
+  .columna img {
+    margin: 5px;
+    width: 350px;
+    height: 200px;
+    transition: transform 0.3s ease;
+  }
+  #contain-maps {
+    position: relative;
+    right: -25px;
+  }
+}
+@media (min-width: 764px) and (max-width: 864px) {
+  .titulo-mapita {
+    margin-left: 230px;
+    font-size: 75px;
+  }
+  .parrafo-mapas {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    position: relative;
+    right: 60px;
+    bottom: 95px;
+  }
+  .fila img {
+    width: 100%;
+  }
+  .columna {
+    flex: 25%;
+    padding: 10px;
+    padding-top: 30px;
+  }
+  .columna img {
+    margin: 5px;
+    width: 350px;
+    height: 200px;
+    transition: transform 0.3s ease;
+  }
+  #contain-maps {
+    position: relative;
+    right: -75px;
+  }
+}
+@media (min-width: 864px) and (max-width: 904px) {
+  .titulo-mapita {
+    margin-left: 240px;
+    font-size: 95px;
+  }
+  .parrafo-mapas {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    position: relative;
+    right: 60px;
+    bottom: 95px;
+  }
+  .fila img {
+    width: 100%;
+  }
+  .columna {
+    flex: 25%;
+    padding: 10px;
+    padding-top: 30px;
+  }
+  .columna img {
+    margin: 5px;
+    width: 350px;
+    height: 200px;
+    transition: transform 0.3s ease;
+  }
+  #contain-maps {
+    position: relative;
+    right: -120px;
+  }
+}
+@media (min-width: 904px) and (max-width: 1000px) {
+  .titulo-mapita {
+    margin-left: 240px;
+    font-size: 95px;
+  }
+  .parrafo-mapas {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    position: relative;
+    right: 60px;
+    bottom: 95px;
+  }
+  .fila img {
+    width: 100%;
+  }
+  .columna {
+    flex: 25%;
+    padding: 10px;
+    padding-top: 30px;
+  }
+  .columna img {
+    margin: 5px;
+    width: 350px;
+    height: 200px;
+    transition: transform 0.3s ease;
+  }
+  #contain-maps {
+    position: relative;
+    right: 60px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .titulo-mapita {
+    margin-left: 320px;
+    font-size: 95px;
+  }
+  .parrafo-mapas {
+    color: rgba(255, 247, 247, 0.829);
+    font-family: "Glossy";
+    font-size: 15px;
+    position: relative;
+    right: 60px;
+    bottom: 95px;
+  }
+  .fila img {
+    width: 100%;
+  }
+  .columna {
+    flex: 25%;
+    padding: 10px;
+    padding-top: 30px;
+  }
+  .columna img {
+    margin: 5px;
+    width: 350px;
+    height: 200px;
+    transition: transform 0.3s ease;
+  }
+  #contain-maps {
+    position: relative;
+    right: -10px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1250px) {
+  .titulo-mapita {
+    margin-left: 430px;
+    font-size: 95px;
+  }
+  #contain-maps {
+    position: relative;
+    right: -130px;
+  }
+}
+@media (min-width: 360px) and (max-width: 480px) {
+  .header--principal {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .icono {
+    height: 55px;
+    width: auto;
+    margin-left: auto;
+  }
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: "Uni Sans";
+    font-size: 17px;
+  }
+  h2 {
+    color: rgba(255, 255, 255, 0.829);
+    font-family: "Rainbow";
+    font-size: 40px;
+  }
+  .atacantes img {
+    height: 70px;
+    padding: 8px;
+  }
+  .defensores img {
+    height: 70px;
+    padding: 8px;
+  }
+  .header {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+  }
+  span {
+    font-size: 23px;
+  }
+  .plataformas {
+    font-family: "Uni Sans";
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .xboxgame, .xboxseries, .xboxone, .Ps4, .Ps5 {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Uni Sans";
+    font-size: 15px;
+  }
+  .logoo {
+    height: 70px;
+    width: 150px;
+    margin-left: 200px;
+    position: relative;
+    bottom: 140px;
+  }
+  .privacidad {
+    height: 70px;
+    margin-left: 0px;
+    position: relative;
+    bottom: -74px;
+  }
+  .r6 {
+    height: 70px;
+    margin-left: 55px;
+    position: relative;
+    bottom: 0px;
+  }
+}
+/*--------TELEFONO MODO HORIZONTAL------*/
+@media (min-width: 430px) and (max-width: 480px) {
+  .logoo {
+    height: 70px;
+    width: 150px;
+    margin-left: 250px;
+    position: relative;
+    bottom: 140px;
+  }
+}
+@media (min-width: 480px) and (max-width: 520px) {
+  .header--principal {
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .icono {
+    height: 80px;
+    width: auto;
+    margin-left: auto;
+  }
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: "Uni Sans";
+    font-size: 20px;
+  }
+  h2 {
+    color: rgba(255, 255, 255, 0.829);
+    font-family: "Rainbow";
+    font-size: 40px;
+  }
+  .atacantes img {
+    height: 75px;
+    padding: 8px;
+  }
+  .defensores img {
+    height: 75px;
+    padding: 8px;
+  }
+  .header {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+  }
+  span {
+    font-size: 23px;
+  }
+  .plataformas {
+    font-family: "Uni Sans";
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .xboxgame, .xboxseries, .xboxone, .Ps4, .Ps5 {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Uni Sans";
+    font-size: 20px;
+  }
+  .logoo {
+    height: 70px;
+    width: 150px;
+    margin-left: 270px;
+    position: relative;
+    bottom: 140px;
+  }
+  .privacidad {
+    height: 70px;
+    margin-left: 0px;
+    position: relative;
+    bottom: -74px;
+  }
+  .r6 {
+    height: 70px;
+    margin-left: 55px;
+    position: relative;
+    bottom: 0px;
+  }
+}
+@media (min-width: 520px) and (max-width: 620px) {
+  .header--principal {
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .icono {
+    height: 80px;
+    width: auto;
+    margin-left: auto;
+  }
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: "Uni Sans";
+    font-size: 22px;
+  }
+  h2 {
+    color: rgba(255, 255, 255, 0.829);
+    font-family: "Rainbow";
+    font-size: 40px;
+  }
+  .atacantes img {
+    height: 75px;
+    padding: 12px;
+  }
+  .defensores img {
+    height: 75px;
+    padding: 12px;
+  }
+  .header {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+  }
+  span {
+    font-size: 23px;
+  }
+  .plataformas {
+    font-family: "Uni Sans";
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .xboxgame, .xboxseries, .xboxone, .Ps4, .Ps5 {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Uni Sans";
+    font-size: 20px;
+  }
+  .logoo {
+    height: 70px;
+    width: 150px;
+    margin-left: 370px;
+    position: relative;
+    bottom: 140px;
+  }
+  .privacidad {
+    height: 70px;
+    margin-left: 0px;
+    position: relative;
+    bottom: -74px;
+  }
+  .r6 {
+    height: 70px;
+    margin-left: 55px;
+    position: relative;
+    bottom: 0px;
+  }
+}
+/*--------TABLETAS PEQUEÑAS MODO VERTICAL------*/
+@media (min-width: 620px) and (max-width: 768px) {
+  .header--principal {
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .icono {
+    height: 85px;
+    width: auto;
+    margin-left: auto;
+  }
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: "Uni Sans";
+    font-size: 22px;
+  }
+  h2 {
+    color: rgba(255, 255, 255, 0.829);
+    font-family: "Rainbow";
+    font-size: 40px;
+  }
+  .atacantes img {
+    height: 85px;
+    padding: 8px;
+  }
+  .defensores img {
+    height: 85px;
+    padding: 8px;
+  }
+  .header {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+  }
+  span {
+    font-size: 23px;
+  }
+  .plataformas {
+    font-family: "Uni Sans";
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  .xboxgame, .xboxseries, .xboxone, .Ps4, .Ps5 {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Uni Sans";
+    font-size: 20px;
+  }
+  .logoo {
+    height: 90px;
+    width: 180px;
+    margin-left: 370px;
+    position: relative;
+    bottom: 140px;
+  }
+  .privacidad {
+    height: 70px;
+    margin-left: 0px;
+    position: relative;
+    bottom: -74px;
+  }
+  .r6 {
+    height: 70px;
+    margin-left: 55px;
+    position: relative;
+    bottom: 0px;
+  }
+}
+/*--------TABLETAS 10 PULGADAS------*/
+@media (min-width: 768px) and (max-width: 870px) {
+  .logoo {
+    height: 90px;
+    width: 180px;
+    margin-left: 450px;
+    position: relative;
+    bottom: 140px;
+  }
+  .privacidad {
+    height: 80px;
+    margin-left: 0px;
+    position: relative;
+    bottom: -84px;
+  }
+  .r6 {
+    height: 80px;
+    margin-left: 62px;
+    position: relative;
+    bottom: 0px;
+  }
+}
+@media (min-width: 870px) and (max-width: 1024px) {
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: "Uni Sans";
+    font-size: 24px;
+  }
+  .logoo {
+    height: 90px;
+    width: 180px;
+    margin-left: 650px;
+    position: relative;
+    bottom: 140px;
+  }
+  .privacidad {
+    height: 80px;
+    margin-left: 0px;
+    position: relative;
+    bottom: -84px;
+  }
+  .r6 {
+    height: 80px;
+    margin-left: 62px;
+    position: relative;
+    bottom: 0px;
+  }
+}
+/*--------TABLETAS MODO HORIZONTAL------*/
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .logoo {
+    margin-left: 680px;
+    position: relative;
+    bottom: 140px;
+  }
+  .privacidad {
+    height: 80px;
+    margin-left: 0px;
+    position: relative;
+    bottom: -84px;
+  }
+  .r6 {
+    height: 80px;
+    margin-left: 62px;
+    position: relative;
+    bottom: 0px;
+  }
+}
+/*--------PANTALLAS PANORAMICAS------*/
+@media (min-width: 1200px) and (max-width: 1876px) {
+  .privacidad {
+    height: 80px;
+    margin-left: 0px;
+    position: relative;
+    bottom: -84px;
+  }
+  .r6 {
+    height: 80px;
+    margin-left: 62px;
+    position: relative;
+    bottom: 0px;
+  }
+}
+/*--------- SECCION ELITE TELEFONO VERTICAL-----------*/
+@media (min-width: 360px) and (max-width: 400px) {
+  .loguito {
+    height: 75px;
+    width: auto;
+    position: relative;
+    top: 40px;
+    left: 63px;
+  }
+  .nav-mapas {
+    font-size: 17px;
+  }
+  .imagenes--elites img {
+    height: 250px;
+  }
+  .elite-th {
+    height: 240px;
+    padding: 10px;
+    padding-left: 45px;
+  }
+  .elite-gl {
+    height: 250px;
+    padding: 10px;
+    position: relative;
+    left: -45px;
+    bottom: -11px;
+  }
+  .elite-smoke {
+    position: relative;
+    top: 13px;
+    margin-left: 30px;
+    padding: 10px;
+  }
+  .elite-bandit {
+    margin-left: 25px;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+  }
+  .kapkan-elite {
+    margin-left: 60px;
+  }
+}
+@media (min-width: 400px) and (max-width: 430px) {
+  .loguito {
+    height: 75px;
+    width: auto;
+    position: relative;
+    top: 40px;
+    left: 75px;
+  }
+  .nav-mapas {
+    font-size: 17px;
+  }
+  .imagenes--elites img {
+    height: 270px;
+  }
+  .elite-th {
+    height: 240px;
+    padding: 10px;
+    padding-left: 45px;
+  }
+  .elite-gl {
+    height: 250px;
+    padding: 10px;
+    position: relative;
+    left: -45px;
+    bottom: -11px;
+  }
+  .elite-smoke {
+    position: relative;
+    top: 13px;
+    margin-left: 30px;
+    padding: 10px;
+  }
+  .elite-bandit {
+    margin-left: 25px;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+  }
+  .kapkan-elite {
+    margin-left: 60px;
+  }
+}
+@media (min-width: 430px) and (max-width: 500px) {
+  .loguito {
+    height: 75px;
+    width: auto;
+    position: relative;
+    top: 40px;
+    left: 99px;
+  }
+  .nav-mapas {
+    font-size: 17px;
+  }
+  .imagenes--elites img {
+    height: 280px;
+  }
+  .elite-th {
+    height: 240px;
+    padding: 10px;
+    padding-left: 45px;
+  }
+  .elite-gl {
+    height: 250px;
+    padding: 10px;
+    position: relative;
+    left: -45px;
+    bottom: -11px;
+  }
+  .elite-smoke {
+    position: relative;
+    top: 13px;
+    margin-left: 30px;
+    padding: 10px;
+  }
+  .elite-bandit {
+    margin-left: 25px;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+  }
+  .kapkan-elite {
+    margin-left: 60px;
+  }
+}
+/*--------- SECCION ELITE TELEFONO HORIZONTAL-----------*/
+@media (min-width: 500px) and (max-width: 530px) {
+  .loguito {
+    height: 75px;
+    width: auto;
+    position: relative;
+    top: 40px;
+    left: 130px;
+  }
+  .nav-mapas {
+    font-size: 17px;
+  }
+  .imagenes--elites img {
+    height: 300px;
+  }
+  .elite-th {
+    height: 240px;
+    padding: 10px;
+    padding-left: 45px;
+  }
+  .elite-gl {
+    height: 250px;
+    padding: 10px;
+    position: relative;
+    left: -45px;
+    bottom: -11px;
+  }
+  .elite-smoke {
+    position: relative;
+    top: 13px;
+    margin-left: 30px;
+    padding: 10px;
+  }
+  .elite-bandit {
+    margin-left: 25px;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+  }
+  .kapkan-elite {
+    margin-left: 60px;
+  }
+}
+/*--------- SECCION ELITE TELEFONO HORIZONTAL-----------*/
+@media (min-width: 530px) and (max-width: 600px) {
+  .loguito {
+    height: 75px;
+    width: auto;
+    position: relative;
+    top: 40px;
+    left: 155px;
+  }
+  .nav-mapas {
+    font-size: 17px;
+  }
+  .imagenes--elites img {
+    height: 360px;
+  }
+  .elite-th {
+    height: 240px;
+    padding: 10px;
+    padding-left: 45px;
+  }
+  .elite-gl {
+    height: 250px;
+    padding: 10px;
+    position: relative;
+    left: -45px;
+    bottom: -11px;
+  }
+  .elite-smoke {
+    position: relative;
+    top: 13px;
+    margin-left: 30px;
+    padding: 10px;
+  }
+  .elite-bandit {
+    margin-left: 25px;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+  }
+  .kapkan-elite {
+    margin-left: 60px;
+  }
+}
+@media (min-width: 600px) and (max-width: 764px) {
+  .loguito {
+    height: 85px;
+    width: auto;
+    position: relative;
+    top: 40px;
+    left: 195px;
+  }
+  .nav-mapas {
+    font-size: 19px;
+  }
+  .imagenes--elites img {
+    height: 430px;
+  }
+  .elite-th {
+    height: 240px;
+    padding: 10px;
+    padding-left: 90px;
+  }
+  .elite-gl {
+    height: 250px;
+    padding: 10px;
+    position: relative;
+    left: -45px;
+    bottom: -11px;
+  }
+  .elite-smoke {
+    position: relative;
+    top: 13px;
+    margin-left: 30px;
+    padding: 10px;
+  }
+  .elite-bandit {
+    margin-left: 25px;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+  }
+  .kapkan-elite {
+    margin-left: 60px;
+  }
+  /*----- SECCION ELITE PARA TABLETAS*/
+}
+@media (min-width: 764px) and (max-width: 844px) {
+  .loguito {
+    height: 85px;
+    width: auto;
+    position: relative;
+    top: 40px;
+    left: 270px;
+  }
+  .nav-mapas {
+    font-size: 21px;
+  }
+  .imagenes--elites img {
+    height: 480px;
+  }
+  .elite-th {
+    height: 240px;
+    padding: 10px;
+    padding-left: 95px;
+  }
+  .elite-gl {
+    height: 250px;
+    padding: 10px;
+    position: relative;
+    left: -45px;
+    bottom: -11px;
+  }
+  .elite-smoke {
+    position: relative;
+    top: 13px;
+    margin-left: 30px;
+    padding: 10px;
+  }
+  .elite-bandit {
+    margin-left: 25px;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+  }
+  .kapkan-elite {
+    margin-left: 60px;
+  }
+}
+@media (min-width: 844px) and (max-width: 1000px) {
+  .loguito {
+    height: 85px;
+    width: auto;
+    position: relative;
+    top: 40px;
+    left: 330px;
+  }
+  .nav-mapas {
+    font-size: 21px;
+  }
+  .imagenes--elites img {
+    height: 540px;
+  }
+  .elite-th {
+    height: 240px;
+    padding: 10px;
+    padding-left: 130px;
+  }
+  .elite-gl {
+    height: 250px;
+    padding: 10px;
+    position: relative;
+    left: -45px;
+    bottom: -11px;
+  }
+  .elite-smoke {
+    position: relative;
+    top: 13px;
+    margin-left: 30px;
+    padding: 10px;
+  }
+  .elite-bandit {
+    margin-left: 25px;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+  }
+  .kapkan-elite {
+    margin-left: 165px;
+  }
+}
+/*------- SECCION ELITES PANTALLAS PANORAMICAS*/
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .loguito {
+    height: 90px;
+    width: auto;
+    position: relative;
+    top: 40px;
+    left: 383px;
+  }
+  .nav-mapas {
+    font-size: 23px;
+  }
+  .imagenes--elites img {
+    height: 650px;
+  }
+  .elite-th {
+    height: px;
+    padding: 10px;
+    padding-left: 130px;
+  }
+  .elite-gl {
+    height: px;
+    padding: 10px;
+    position: relative;
+    left: -45px;
+    bottom: -11px;
+  }
+  .elite-smoke {
+    position: relative;
+    top: 13px;
+    margin-left: 30px;
+    padding: 10px;
+  }
+  .elite-bandit {
+    margin-left: 25px;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+  }
+  .kapkan-elite {
+    margin-left: 165px;
+  }
+}/*# sourceMappingURL=main.css.map */
