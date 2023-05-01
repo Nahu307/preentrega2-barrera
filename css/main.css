@@ -99,6 +99,33 @@ nav {
   font-size: 25px;
 }
 
+.sign {
+  min-height: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Vibur", cursive;
+  font-size: 1rem;
+}
+.sign span {
+  font-size: 2.3rem;
+  text-align: center;
+  color: #c6e2ff;
+  animation: neon 0.08s ease-in-out infinite alternate;
+  position: relative;
+  right: 830px;
+  bottom: 100px;
+}
+
+@keyframes neon {
+  from {
+    text-shadow: 0 0 6px rgba(202, 228, 225, 0.92), 0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px rgba(30, 132, 242, 0.52), 0 0 21px rgba(30, 132, 242, 0.92), 0 0 34px rgba(30, 132, 242, 0.78), 0 0 54px rgba(30, 132, 242, 0.92);
+  }
+  to {
+    text-shadow: 0 0 6px rgba(202, 228, 225, 0.98), 0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(30, 132, 242, 0.58), 0 0 22px rgba(30, 132, 242, 0.84), 0 0 38px rgba(30, 132, 242, 0.88), 0 0 60px rgb(30, 132, 242);
+  }
+}
 .defensores img, .atacantes img {
   height: 90px;
 }
@@ -305,6 +332,505 @@ ul li a:hover {
   height: 450px;
 }
 
+@media (min-width: 350px) and (max-width: 400px) {
+  img {
+    height: 500px;
+  }
+  .equipamiento {
+    text-align: center;
+    font-size: 60px;
+    position: relative;
+    top: 60px;
+  }
+  .titulo-historial {
+    display: none;
+  }
+  .titulo-historial {
+    position: relative;
+    top: -800px;
+    left: 1350px;
+  }
+  .fondito {
+    background-color: grey;
+    width: 290px;
+    height: 110px;
+    margin-left: 35px;
+    border: solid 5px grey;
+  }
+  .armas {
+    height: 100px;
+    justify-content: center;
+    padding-top: 45px;
+  }
+  .arma--principal {
+    font-family: R6;
+    font-size: 30px;
+    position: relative;
+    right: 460px;
+  }
+  .video--type {
+    display: none;
+    position: absolute;
+    left: 60px;
+    bottom: 100px;
+    width: 250px;
+    height: 150px;
+  }
+}
+@media (min-width: 400px) and (max-width: 460px) {
+  img {
+    height: 500px;
+  }
+  .equipamiento {
+    text-align: center;
+    font-size: 60px;
+    position: relative;
+    top: 60px;
+    left: 10px;
+  }
+  .titulo-historial {
+    display: none;
+    position: relative;
+    top: -800px;
+    left: 1350px;
+  }
+  .fondito {
+    background-color: grey;
+    width: 290px;
+    height: 110px;
+    margin-left: 75px;
+    border: solid 5px grey;
+  }
+  .armas {
+    height: 100px;
+    justify-content: center;
+    padding-top: 45px;
+  }
+  .arma--principal {
+    font-family: R6;
+    font-size: 30px;
+    position: relative;
+    right: 460px;
+  }
+  .video--type {
+    display: none;
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+    width: 250px;
+    height: 150px;
+  }
+}
+@media (min-width: 460px) and (max-width: 510px) {
+  img {
+    height: 650px;
+  }
+  .equipamiento {
+    text-align: center;
+    font-size: 60px;
+    position: relative;
+    top: 60px;
+    left: 15px;
+  }
+  .titulo-historial {
+    display: none;
+    position: relative;
+    top: -800px;
+    left: 1350px;
+  }
+  .fondito {
+    background-color: grey;
+    width: 290px;
+    height: 110px;
+    margin-left: 95px;
+    border: solid 5px grey;
+  }
+  .armas {
+    height: 100px;
+    justify-content: center;
+    padding-top: 45px;
+  }
+  .video--type {
+    display: none;
+    position: absolute;
+    left: 110px;
+    bottom: -50px;
+    width: 250px;
+    height: 150px;
+    padding: 60px;
+  }
+}
+@media (min-width: 510px) and (max-width: 550px) {
+  img {
+    height: 680px;
+  }
+  .equipamiento {
+    text-align: center;
+    font-size: 60px;
+    position: relative;
+    top: 60px;
+    left: 27px;
+  }
+  .titulo-historial {
+    display: none;
+  }
+  .fondito {
+    background-color: grey;
+    width: 290px;
+    height: 110px;
+    margin-left: 125px;
+    border: solid 5px grey;
+  }
+  .video--type {
+    display: none;
+    position: absolute;
+    left: 155px;
+    bottom: -90px;
+    width: 250px;
+    height: 150px;
+  }
+}
+@media (min-width: 550px) and (max-width: 600px) {
+  img {
+    height: 700px;
+  }
+  .titulo-historial {
+    display: none;
+  }
+  .video--type {
+    display: none;
+    position: absolute;
+    left: 155px;
+    bottom: -90px;
+    width: 250px;
+    height: 150px;
+  }
+}
+@media (min-width: 600px) and (max-width: 630px) {
+  img {
+    height: 500px;
+  }
+  .video--type {
+    display: flex;
+    position: relative;
+    left: 275px;
+    bottom: 250px;
+    width: 250px;
+    height: 150px;
+  }
+  .titulo-historial {
+    display: none;
+  }
+  .equipamiento {
+    text-align: center;
+    font-size: 70px;
+    position: relative;
+    top: -180px;
+    left: 10px;
+  }
+  .fondito {
+    background-color: grey;
+    width: 290px;
+    height: 110px;
+    margin-left: 165px;
+    border: solid 5px grey;
+    position: relative;
+    bottom: 180px;
+  }
+}
+@media (min-width: 630px) and (max-width: 670px) {
+  img {
+    height: 500px;
+  }
+  .video--type {
+    display: flex;
+    position: relative;
+    left: 300px;
+    bottom: 250px;
+    width: 250px;
+    height: 150px;
+  }
+  .titulo-historial {
+    display: none;
+  }
+  .equipamiento {
+    text-align: center;
+    font-size: 70px;
+    position: relative;
+    top: -180px;
+    left: -15px;
+  }
+  .fondito {
+    background-color: grey;
+    width: 290px;
+    height: 110px;
+    margin-left: 165px;
+    border: solid 5px grey;
+    position: relative;
+    bottom: 180px;
+  }
+}
+@media (min-width: 670px) and (max-width: 700px) {
+  img {
+    height: 500px;
+  }
+  .video--type {
+    display: flex;
+    position: relative;
+    left: 340px;
+    bottom: 310px;
+    width: 250px;
+    height: 150px;
+  }
+  .equipamiento {
+    text-align: center;
+    font-size: 70px;
+    position: relative;
+    top: -180px;
+    left: -15px;
+  }
+  .titulo-historial {
+    display: none;
+  }
+  .fondito {
+    background-color: grey;
+    width: 290px;
+    height: 110px;
+    margin-left: 165px;
+    border: solid 5px grey;
+    position: relative;
+    bottom: 180px;
+  }
+}
+@media (min-width: 700px) and (max-width: 740px) {
+  img {
+    height: 500px;
+  }
+  .video--type {
+    display: flex;
+    position: relative;
+    left: 340px;
+    bottom: 310px;
+    width: 250px;
+    height: 150px;
+  }
+  .equipamiento {
+    text-align: center;
+    font-size: 75px;
+    position: relative;
+    top: -180px;
+    left: -15px;
+  }
+  .titulo-historial {
+    display: none;
+  }
+  .fondito {
+    background-color: grey;
+    width: 290px;
+    height: 110px;
+    margin-left: 195px;
+    border: solid 5px grey;
+    position: relative;
+    bottom: 180px;
+  }
+}
+@media (min-width: 740px) and (max-width: 790px) {
+  img {
+    height: 500px;
+  }
+  .video--type {
+    display: flex;
+    position: relative;
+    left: 340px;
+    bottom: 310px;
+    width: 250px;
+    height: 150px;
+  }
+  .equipamiento {
+    text-align: center;
+    font-size: 80px;
+    position: relative;
+    top: -180px;
+    left: -10px;
+  }
+  .titulo-historial {
+    display: none;
+  }
+  .fondito {
+    background-color: grey;
+    width: 290px;
+    height: 110px;
+    margin-left: 210px;
+    border: solid 5px grey;
+    position: relative;
+    bottom: 180px;
+  }
+}
+@media (min-width: 790px) and (max-width: 830px) {
+  img {
+    height: 500px;
+  }
+  .video--type {
+    display: flex;
+    position: relative;
+    left: 340px;
+    bottom: 310px;
+    width: 250px;
+    height: 150px;
+  }
+  .equipamiento {
+    text-align: center;
+    font-size: 80px;
+    position: relative;
+    top: -180px;
+    left: -10px;
+  }
+  .titulo-historial {
+    display: none;
+  }
+  .fondito {
+    background-color: grey;
+    width: 290px;
+    height: 110px;
+    margin-left: 240px;
+    border: solid 5px grey;
+    position: relative;
+    bottom: 180px;
+  }
+}
+@media (min-width: 830px) and (max-width: 899px) {
+  img {
+    height: 500px;
+  }
+  .video--type {
+    display: flex;
+    position: relative;
+    left: 390px;
+    bottom: 420px;
+    width: 380px;
+    height: 250px;
+  }
+  .titulo-historial {
+    display: none;
+  }
+  .equipamiento {
+    text-align: center;
+    font-size: 82px;
+    position: relative;
+    top: -180px;
+    left: -20px;
+  }
+  .fondito {
+    background-color: grey;
+    width: 290px;
+    height: 110px;
+    margin-left: 280px;
+    border: solid 5px grey;
+    position: relative;
+    bottom: 180px;
+  }
+}
+@media (min-width: 900px) and (max-width: 952px) {
+  img {
+    height: 680px;
+  }
+  .video--type {
+    display: flex;
+    position: relative;
+    left: 470px;
+    bottom: 420px;
+    width: 380px;
+    height: 250px;
+  }
+  .titulo-historial {
+    display: none;
+  }
+  .equipamiento {
+    position: relative;
+    left: 20px;
+    bottom: 250px;
+  }
+  .fondito {
+    position: relative;
+    left: -20px;
+    bottom: 250px;
+  }
+}
+@media (min-width: 952px) and (max-width: 1024px) {
+  .titulo-historial {
+    display: none;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1200px) {
+  .video--type {
+    display: flex;
+    position: relative;
+    left: 470px;
+    bottom: 620px;
+    width: 500px;
+    height: 350px;
+  }
+  .titulo-historial {
+    display: none;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1100px) {
+  .video--type {
+    display: flex;
+    position: relative;
+    left: 430px;
+    bottom: 620px;
+    width: 580px;
+    height: 450px;
+  }
+  .titulo-historial {
+    display: none;
+  }
+}
+@media (min-width: 1100px) and (max-width: 1150px) {
+  .video--type {
+    display: flex;
+    position: relative;
+    left: 430px;
+    bottom: 620px;
+    width: 580px;
+    height: 450px;
+  }
+  .titulo-historial {
+    display: none;
+  }
+  .equipamiento {
+    position: relative;
+    left: -30px;
+    bottom: 300px;
+  }
+  .fondito {
+    position: relative;
+    bottom: 150px;
+  }
+}
+@media (min-width: 1150px) and (max-width: 1200px) {
+  .video--type {
+    display: flex;
+    position: relative;
+    left: 470px;
+    bottom: 620px;
+    width: 580px;
+    height: 450px;
+  }
+  .titulo-historial {
+    display: none;
+  }
+  .equipamiento {
+    position: relative;
+    left: -50px;
+    bottom: 300px;
+  }
+  .fondito {
+    position: relative;
+    bottom: 250px;
+  }
+}
 .titulo-battle {
   text-align: center;
   margin: 82px;
@@ -373,7 +899,7 @@ ul li a:hover {
 
 @media (min-width: 360px) and (max-width: 410px) {
   .titulo-battle {
-    font-size: 90px;
+    font-size: 70px;
     text-align: center;
     margin: 5px;
   }
@@ -383,7 +909,10 @@ ul li a:hover {
     font-size: 15px;
     padding-left: 30px;
     position: relative;
-    top: 30px;
+    top: -30px;
+  }
+  .battlepass-video {
+    display: none;
   }
   .parrafo-battlepass {
     color: rgba(255, 247, 247, 0.829);
@@ -391,7 +920,7 @@ ul li a:hover {
     font-size: 15px;
     position: relative;
     left: 4px;
-    top: 65px;
+    top: 0px;
   }
   .item-battle {
     color: rgba(255, 247, 247, 0.829);
@@ -399,7 +928,7 @@ ul li a:hover {
     font-size: 15px;
     padding-left: 30px;
     position: relative;
-    top: 50px;
+    top: -20px;
   }
   .brava {
     height: 900px;
@@ -438,7 +967,7 @@ ul li a:hover {
 }
 @media (min-width: 410px) and (max-width: 468px) {
   .titulo-battle {
-    font-size: 90px;
+    font-size: 75px;
     text-align: center;
     margin: 5px;
   }
@@ -448,15 +977,18 @@ ul li a:hover {
     font-size: 15px;
     padding-left: 30px;
     position: relative;
-    top: 30px;
+    top: -30px;
+  }
+  .battlepass-video {
+    display: none;
   }
   .parrafo-battlepass {
     color: rgba(255, 247, 247, 0.829);
     font-family: "Glossy";
     font-size: 15px;
     position: relative;
-    left: 10px;
-    top: 65px;
+    left: 20px;
+    top: 0px;
   }
   .item-battle {
     color: rgba(255, 247, 247, 0.829);
@@ -464,7 +996,7 @@ ul li a:hover {
     font-size: 15px;
     padding-left: 30px;
     position: relative;
-    top: 50px;
+    top: -20px;
   }
   .brava {
     height: 900px;
@@ -473,7 +1005,7 @@ ul li a:hover {
     background-position: center;
   }
   .titulo-brava {
-    font-size: 90px;
+    font-size: 70px;
     text-align: center;
     padding-top: 350px;
     margin: 0;
@@ -503,7 +1035,7 @@ ul li a:hover {
 }
 @media (min-width: 468px) and (max-width: 482px) {
   .titulo-battle {
-    font-size: 90px;
+    font-size: 70px;
     text-align: center;
     margin: 5px;
   }
@@ -511,9 +1043,9 @@ ul li a:hover {
     color: rgba(255, 247, 247, 0.829);
     font-family: "Glossy";
     font-size: 15px;
-    padding-left: 30px;
+    padding-left: 15px;
     position: relative;
-    top: 30px;
+    top: -90px;
   }
   .parrafo-battlepass {
     color: rgba(255, 247, 247, 0.829);
@@ -521,7 +1053,10 @@ ul li a:hover {
     font-size: 15px;
     position: relative;
     left: 10px;
-    top: 65px;
+    top: -30px;
+  }
+  .battlepass-video {
+    display: none;
   }
   .item-battle {
     color: rgba(255, 247, 247, 0.829);
@@ -529,7 +1064,7 @@ ul li a:hover {
     font-size: 15px;
     padding-left: 30px;
     position: relative;
-    top: 50px;
+    top: -50px;
   }
   .brava {
     height: 900px;
@@ -538,7 +1073,7 @@ ul li a:hover {
     background-position: center;
   }
   .titulo-brava {
-    font-size: 90px;
+    font-size: 80px;
     text-align: center;
     padding-top: 350px;
     margin: 0;
@@ -1572,9 +2107,11 @@ ul li a:hover {
     align-items: center;
   }
   .icono {
-    height: 55px;
+    height: 73px;
     width: auto;
     margin-left: auto;
+    position: relative;
+    bottom: 5px;
   }
   .nav-link {
     color: white;

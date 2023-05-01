@@ -56,7 +56,7 @@
 }
 @media (min-width:360px) and (max-width:410px){
     .titulo-battle{
-        font-size: 90px;
+        font-size: 70px;
         text-align: center;
         margin: 5px;
     }
@@ -66,7 +66,10 @@
         font-size: 15px;
         padding-left: 30px;
         position: relative;
-        top: 30px;
+        top: -30px;
+    }
+    .battlepass-video{
+        display: none;
     }
     .parrafo-battlepass{
         color: rgba(255, 247, 247, 0.829);
@@ -74,7 +77,7 @@
         font-size: 15px;
         position: relative;
         left: 4px;
-        top: 65px;
+        top: 0px;
     }
     .item-battle{
         color: rgba(255, 247, 247, 0.829);
@@ -82,7 +85,7 @@
         font-size: 15px;
         padding-left: 30px;
         position: relative;
-        top: 50px;
+        top: -20px;
     }
     .brava{
         height: 900px;
@@ -121,7 +124,7 @@
 }
 @media (min-width:410px) and (max-width:468px){
     .titulo-battle{
-        font-size: 90px;
+        font-size: 75px;
         text-align: center;
         margin: 5px;
     }
@@ -131,15 +134,18 @@
         font-size: 15px;
         padding-left: 30px;
         position: relative;
-        top: 30px;
+        top: -30px;
+    }
+    .battlepass-video{
+        display: none;
     }
     .parrafo-battlepass{
         color: rgba(255, 247, 247, 0.829);
         font-family:"Glossy";
         font-size: 15px;
         position: relative;
-        left: 10px;
-        top: 65px;
+        left: 20px;
+        top: 0px;
     }
     .item-battle{
         color: rgba(255, 247, 247, 0.829);
@@ -147,7 +153,7 @@
         font-size: 15px;
         padding-left: 30px;
         position: relative;
-        top: 50px;
+        top: -20px;
     }
     .brava{
         height: 900px;
@@ -156,7 +162,7 @@
         background-position: center;
     }
     .titulo-brava{
-        font-size: 90px;
+        font-size: 70px;
         text-align: center;
         padding-top: 350px;
         margin: 0;
@@ -186,7 +192,7 @@
 }
 @media (min-width:468px) and (max-width:482px){
     .titulo-battle{
-        font-size: 90px;
+        font-size: 70px;
         text-align: center;
         margin: 5px;
     }
@@ -194,9 +200,9 @@
         color: rgba(255, 247, 247, 0.829);
         font-family:"Glossy";
         font-size: 15px;
-        padding-left: 30px;
+        padding-left: 15px;
         position: relative;
-        top: 30px;
+        top: -90px;
     }
     .parrafo-battlepass{
         color: rgba(255, 247, 247, 0.829);
@@ -204,7 +210,10 @@
         font-size: 15px;
         position: relative;
         left: 10px;
-        top: 65px;
+        top: -30px;
+    }
+    .battlepass-video{
+        display: none;
     }
     .item-battle{
         color: rgba(255, 247, 247, 0.829);
@@ -212,7 +221,7 @@
         font-size: 15px;
         padding-left: 30px;
         position: relative;
-        top: 50px;
+        top: -50px;
     }
     .brava{
         height: 900px;
@@ -221,7 +230,7 @@
         background-position: center;
     }
     .titulo-brava{
-        font-size: 90px;
+        font-size: 80px;
         text-align: center;
         padding-top: 350px;
         margin: 0;
