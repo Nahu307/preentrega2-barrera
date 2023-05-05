@@ -98,6 +98,9 @@ nav {
   font-family: "Uni Sans";
   font-size: 25px;
 }
+.nav-link:hover {
+  color: rgb(18, 121, 255);
+}
 
 .sign {
   min-height: 10px;
@@ -128,6 +131,9 @@ nav {
 }
 .defensores img, .atacantes img {
   height: 90px;
+}
+.defensores img:hover, .atacantes img:hover {
+  transform: scale(1.2);
 }
 
 .titulodef {
@@ -201,6 +207,8 @@ ul {
   margin: 0;
   padding: 0;
   display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
   position: relative;
   top: 50%;
   left: 50%;
@@ -1657,6 +1665,9 @@ ul li a:hover {
   height: 200px;
   transition: transform 0.3s ease;
 }
+.columna img:hover {
+  transform: scale(1.1);
+}
 
 #contain-maps {
   margin-left: 160px;
@@ -1671,6 +1682,9 @@ ul li a:hover {
   justify-content: space-between;
   position: relative;
   bottom: 80px;
+}
+.nav-mapas:hover {
+  color: rgb(18, 121, 255);
 }
 
 @media (min-width: 350px) and (max-width: 385px) {

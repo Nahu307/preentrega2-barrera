@@ -20,7 +20,9 @@ nav {
     margin-right: 20px;
     font-family: "Uni Sans";
     font-size: 25px;
-
+    &:hover{
+        color: rgb(18, 121, 255);
+    }
 }
 .sign {
     min-height: 10px;

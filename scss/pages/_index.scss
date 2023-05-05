@@ -1,6 +1,9 @@
 .defensores, .atacantes{
     img{
     height: 90px;
+    &:hover{
+        transform: scale(1.2);
+    }
     }
 }
 .titulodef{
