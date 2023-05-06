@@ -253,7 +253,7 @@ ul li a:hover {
   text-shadow: 0 0 5px #0a47c9;
 }
 
-@media (min-width: 350px) and (max-width: 678px) {
+@media (max-width: 678px) {
   ul {
     margin: 0;
     padding: 0px;
@@ -349,7 +349,7 @@ ul li a:hover {
   left: 1350px;
 }
 
-@media (min-width: 350px) and (max-width: 400px) {
+@media (min-width: 350px) {
   img {
     height: 500px;
   }
@@ -400,57 +400,7 @@ ul li a:hover {
     height: 150px;
   }
 }
-@media (min-width: 400px) and (max-width: 460px) {
-  img {
-    height: 500px;
-  }
-  .equipamiento {
-    text-align: center;
-    font-size: 60px;
-    position: relative;
-    top: 60px;
-    left: 10px;
-  }
-  .titulo-historial {
-    display: none;
-    position: relative;
-    top: -800px;
-    left: 1350px;
-  }
-  .lion-img {
-    height: 350px;
-  }
-  .fondito {
-    background-color: grey;
-    width: 290px;
-    height: 110px;
-    margin-left: 75px;
-    border: solid 5px grey;
-  }
-  .armas {
-    height: 100px;
-    justify-content: center;
-    padding-top: 45px;
-  }
-  .arma--principal {
-    font-family: R6;
-    font-size: 30px;
-    position: relative;
-    right: 460px;
-  }
-  .titulo-historial-lion {
-    display: none;
-  }
-  .video--type {
-    display: none;
-    position: absolute;
-    left: 100px;
-    bottom: 100px;
-    width: 250px;
-    height: 150px;
-  }
-}
-@media (min-width: 460px) and (max-width: 510px) {
+@media (min-width: 460px) {
   img {
     height: 650px;
   }
@@ -495,9 +445,9 @@ ul li a:hover {
     padding: 60px;
   }
 }
-@media (min-width: 510px) and (max-width: 550px) {
+@media (min-width: 510px) {
   img {
-    height: 680px;
+    height: 650px;
   }
   .equipamiento {
     text-align: center;
@@ -531,7 +481,7 @@ ul li a:hover {
     height: 150px;
   }
 }
-@media (min-width: 550px) and (max-width: 600px) {
+@media (min-width: 550px) {
   img {
     height: 700px;
   }
@@ -553,15 +503,15 @@ ul li a:hover {
     height: 150px;
   }
 }
-@media (min-width: 600px) and (max-width: 630px) {
+@media (min-width: 600px) {
   img {
     height: 500px;
   }
   .video--type {
-    display: none;
+    display: flex;
     position: relative;
-    left: 275px;
-    bottom: 250px;
+    left: 245px;
+    bottom: 350px;
     width: 250px;
     height: 150px;
   }
@@ -591,7 +541,7 @@ ul li a:hover {
     bottom: 50px;
   }
 }
-@media (min-width: 630px) and (max-width: 670px) {
+@media (min-width: 630px) {
   img {
     height: 500px;
   }
@@ -601,8 +551,8 @@ ul li a:hover {
   .video--type {
     display: flex;
     position: relative;
-    left: 340px;
-    bottom: 250px;
+    left: 270px;
+    bottom: 370px;
     width: 250px;
     height: 150px;
   }
@@ -629,15 +579,15 @@ ul li a:hover {
     bottom: 180px;
   }
 }
-@media (min-width: 670px) and (max-width: 700px) {
+@media (min-width: 670px) {
   img {
     height: 500px;
   }
   .video--type {
     display: flex;
     position: relative;
-    left: 340px;
-    bottom: 310px;
+    left: 300px;
+    bottom: 410px;
     width: 250px;
     height: 150px;
   }
@@ -667,15 +617,15 @@ ul li a:hover {
     bottom: 180px;
   }
 }
-@media (min-width: 700px) and (max-width: 740px) {
+@media (min-width: 700px) {
   img {
     height: 500px;
   }
   .video--type {
     display: flex;
     position: relative;
-    left: 380px;
-    bottom: 270px;
+    left: 340px;
+    bottom: 400px;
     width: 250px;
     height: 150px;
   }
@@ -705,15 +655,15 @@ ul li a:hover {
     bottom: 180px;
   }
 }
-@media (min-width: 740px) and (max-width: 790px) {
+@media (min-width: 740px) {
   img {
     height: 500px;
   }
   .video--type {
     display: flex;
     position: relative;
-    left: 340px;
-    bottom: 310px;
+    left: 270px;
+    bottom: 430px;
     width: 350px;
     height: 250px;
   }
@@ -743,15 +693,15 @@ ul li a:hover {
     bottom: 180px;
   }
 }
-@media (min-width: 790px) and (max-width: 830px) {
+@media (min-width: 790px) {
   img {
     height: 500px;
   }
   .video--type {
     display: flex;
     position: relative;
-    left: 370px;
-    bottom: 310px;
+    left: 320px;
+    bottom: 440px;
     width: 350px;
     height: 250px;
   }
@@ -781,15 +731,15 @@ ul li a:hover {
     bottom: 180px;
   }
 }
-@media (min-width: 830px) and (max-width: 899px) {
+@media (min-width: 830px) {
   img {
     height: 500px;
   }
   .video--type {
     display: flex;
     position: relative;
-    left: 390px;
-    bottom: 300px;
+    left: 320px;
+    bottom: 430px;
     width: 380px;
     height: 250px;
   }
@@ -816,15 +766,15 @@ ul li a:hover {
     bottom: 180px;
   }
 }
-@media (min-width: 900px) and (max-width: 952px) {
+@media (min-width: 900px) {
   img {
     height: 680px;
   }
   .video--type {
     display: flex;
     position: relative;
-    left: 470px;
-    bottom: 350px;
+    left: 380px;
+    bottom: 550px;
     width: 380px;
     height: 250px;
   }
@@ -841,32 +791,36 @@ ul li a:hover {
   }
   .fondito {
     position: relative;
-    left: -20px;
+    left: 60px;
     bottom: 250px;
   }
 }
-@media (min-width: 952px) and (max-width: 1024px) {
+@media (min-width: 950px) {
   .titulo-historial {
     display: none;
   }
   .video--type {
     display: flex;
     position: relative;
-    left: 470px;
-    bottom: 380px;
+    left: 410px;
+    bottom: 580px;
     width: 430px;
     height: 300px;
   }
   .lion-img {
     height: 450px;
   }
+  .fondito {
+    position: relative;
+    left: 80px;
+  }
 }
-@media (min-width: 1024px) and (max-width: 1100px) {
+@media (min-width: 1024px) {
   .video--type {
     display: flex;
     position: relative;
-    left: 530px;
-    bottom: 420px;
+    left: 450px;
+    bottom: 550px;
     width: 450px;
     height: 350px;
   }
@@ -876,13 +830,17 @@ ul li a:hover {
   .lion-img {
     height: 550px;
   }
+  .fondito {
+    position: relative;
+    left: 120px;
+  }
 }
-@media (min-width: 1100px) and (max-width: 1150px) {
+@media (min-width: 1100px) {
   .video--type {
     display: flex;
     position: relative;
-    left: 530px;
-    bottom: 460px;
+    left: 450px;
+    bottom: 620px;
     width: 520px;
     height: 420px;
   }
@@ -902,12 +860,12 @@ ul li a:hover {
     bottom: 150px;
   }
 }
-@media (min-width: 1150px) and (max-width: 1250px) {
+@media (min-width: 1150px) {
   .video--type {
     display: flex;
     position: relative;
-    left: 610px;
-    bottom: 510px;
+    left: 530px;
+    bottom: 610px;
     width: 480px;
     height: 350px;
   }
@@ -916,15 +874,18 @@ ul li a:hover {
   }
   .equipamiento {
     position: relative;
-    left: -50px;
+    left: -30px;
     bottom: 300px;
   }
   .lion-img {
     height: 650px;
   }
+}
+@media (min-width: 1170px) {
   .fondito {
     position: relative;
     bottom: 250px;
+    left: -130px;
   }
 }
 .titulo-battle {

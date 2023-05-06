@@ -39,7 +39,12 @@
     top: -700px;
     left: 1350px;
 }
-@media (min-width:350px) and (max-width:400px){
+@mixin mobile{
+    @media (min-width:350px) {
+        @content;
+    }
+}
+@include mobile(){
     img{
         height: $tamaño-agentes-responsive;
     }
@@ -90,57 +95,12 @@
         height: 150px;
     } 
 }
-@media (min-width:400px) and (max-width:460px){
-    img{
-        height: $tamaño-agentes-responsive;
+@mixin mobile-horizontal{
+    @media (min-width:460px) {
+        @content;
     }
-    .equipamiento{
-        text-align: center;
-        font-size: 60px;
-        position: relative;
-        top: 60px;
-        left: 10px;
-    }
-    .titulo-historial{
-        display: none;
-        position: relative;
-        top: -800px;
-        left: 1350px;
-    }
-    .lion-img{
-        height:350px;
-    }
-    .fondito{
-        background-color: grey;
-        width: 290px;
-        height: 110px;
-        margin-left: 75px;
-        border: solid 5px grey;
-    }
-    .armas{
-        height: 100px;
-        justify-content: center;
-        padding-top: 45px;
-    }
-    .arma--principal{
-        font-family: R6;
-        font-size: 30px;
-        position: relative;
-        right: 460px;
-    }
-    .titulo-historial-lion{
-        display: none;
-    }
-    .video--type{
-        display: none;
-        position: absolute;
-        left: 100px;
-        bottom: 100px;
-        width: 250px;
-        height: 150px;
-    } 
 }
-@media (min-width:460px) and (max-width:510px){
+@include mobile-horizontal(){
     img{
         height: $tamaño-agente;
     }
@@ -185,9 +145,14 @@
         padding: 60px;
     } 
 }
-@media (min-width:510px) and (max-width:550px){
+@mixin mobile-horizontal-{
+    @media (min-width:510px) {
+        @content;
+    }
+}
+@include mobile-horizontal-(){
     img{
-        height: $tamaño-tablet;
+        height: $tamaño-agente;
     }
     .equipamiento{
         text-align: center;
@@ -219,9 +184,14 @@
         bottom: -90px;
         width: 250px;
         height: 150px;
-    } 
+    }
 }
-@media (min-width:550px) and (max-width:600px){
+@mixin horizontal-mobile{
+    @media (min-width:550px) {
+        @content;
+    }
+}
+@include horizontal-mobile(){
     img{
         height: 700px;   
     }
@@ -243,15 +213,20 @@
         height: 150px;
     } 
 }
-@media (min-width:600px) and (max-width:630px){
+@mixin tabletas-pequeñas{
+    @media (min-width:600px) {
+        @content;
+    }
+}
+@include tabletas-pequeñas(){
     img{
         height: $tamaño-agentes-responsive; 
     }
     .video--type{
-        display: none;
+        display: flex;
         position: relative;
-        left: 275px;
-        bottom: 250px;
+        left: 245px;
+        bottom: 350px;
         width: 250px;
         height: 150px;
     } 
@@ -281,7 +256,12 @@
         bottom: 50px;
     }
 }
-@media (min-width:630px) and (max-width:670px){
+@mixin tabletas-vertical{
+    @media (min-width:630px) {
+        @content;
+    }
+}
+@include tabletas-vertical(){
     img{
         height: $tamaño-agentes-responsive; 
     }
@@ -291,8 +271,8 @@
     .video--type{
         display: flex;
         position: relative;
-        left: 340px;
-        bottom: 250px;
+        left: 270px;
+        bottom: 370px;
         width: 250px;
         height: 150px;
     } 
@@ -319,15 +299,20 @@
         bottom: 180px;
     }
 }
-@media (min-width:670px) and (max-width:700px){
+@mixin tablets-pequeñas{
+    @media (min-width:670px) {
+        @content;
+    }
+}
+@include tablets-pequeñas(){
     img{
         height: $tamaño-agentes-responsive; 
     }
     .video--type{
         display: flex;
         position: relative;
-        left: 340px;
-        bottom: 310px;
+        left: 300px;
+        bottom: 410px;
         width: 250px;
         height: 150px;
     } 
@@ -357,15 +342,20 @@
         bottom: 180px;
     }
 }
-@media (min-width:700px) and (max-width:740px){
+@mixin tablet-vertical{
+    @media (min-width:700px) {
+        @content;
+    }
+}
+@include tablet-vertical(){
     img{
         height: $tamaño-agentes-responsive; 
     }
     .video--type{
         display: flex;
         position: relative;
-        left: 380px;
-        bottom: 270px;
+        left: 340px;
+        bottom: 400px;
         width: 250px;
         height: 150px;
     } 
@@ -395,15 +385,20 @@
         bottom: 180px;
     }
 }
-@media (min-width:740px) and (max-width:790px){
+@mixin tabletas-diez-pulgadas{
+    @media (min-width:740px) {
+        @content;
+    }
+}
+@include tabletas-diez-pulgadas(){
     img{
         height: $tamaño-agentes-responsive; 
     }
     .video--type{
         display: flex;
         position: relative;
-        left: 340px;
-        bottom: 310px;
+        left: 270px;
+        bottom: 430px;
         width: 350px;
         height: 250px;
     } 
@@ -433,15 +428,20 @@
         bottom: 180px;
     }
 }
-@media (min-width:790px) and (max-width:830px){
+@mixin diez-pulgadas{
+    @media (min-width:790px) {
+        @content;
+    }
+}
+@include diez-pulgadas(){
     img{
         height: $tamaño-agentes-responsive; 
     }
     .video--type{
         display: flex;
         position: relative;
-        left: 370px;
-        bottom: 310px;
+        left: 320px;
+        bottom: 440px;
         width: 350px;
         height: 250px;
     } 
@@ -472,15 +472,20 @@
         bottom: 180px;
     }
 }
-@media (min-width:830px) and (max-width:899px){
+@mixin tablet--{
+    @media (min-width:830px) {
+        @content;
+    }
+}
+@include tablet--(){
     img{
         height: $tamaño-agentes-responsive; 
     }
     .video--type{
         display: flex;
         position: relative;
-        left: 390px;
-        bottom: 300px;
+        left: 320px;
+        bottom: 430px;
         width: 380px;
         height: 250px;
     } 
@@ -507,15 +512,20 @@
         bottom: 180px;
     }
 }
-@media (min-width:900px) and (max-width:952px){
+@mixin tablet-px{
+    @media (min-width:900px) {
+        @content;
+    }
+}
+@include tablet-px(){
     img{
         height: $tamaño-tablet; 
     }
     .video--type{
         display: flex;
         position: relative;
-        left: 470px;
-        bottom: 350px;
+        left: 380px;
+        bottom: 550px;
         width: 380px;
         height: 250px;
     }
@@ -532,33 +542,46 @@
     }
     .fondito{
         position: relative;
-        left: -20px;
+        left: 60px;
         bottom: 250px;
     }
 }
-@media (min-width:952px) and (max-width:1024px){
+@mixin horizontal-t{
+    @media (min-width:950px) {
+        @content;
+    }
+}
+@include horizontal-t(){
     .titulo-historial{
         display: none;
     }
     .video--type{
         display: flex;
         position: relative;
-        left: 470px;
-        bottom: 380px;
+        left: 410px;
+        bottom: 580px;
         width: 430px;
         height: 300px;
     }
     .lion-img{
         height: 450px;
     }
+    .fondito{
+        position: relative;
+        left: 80px;
+    }
 }
-
-@media (min-width:1024px) and (max-width:1100px){
+@mixin tabletas-horizontal{
+    @media (min-width:1024px) {
+        @content;
+    }
+}
+@include tabletas-horizontal(){
     .video--type{
         display: flex;
         position: relative;
-        left: 530px;
-        bottom: 420px;
+        left: 450px;
+        bottom: 550px;
         width: 450px;
         height: 350px;
     }
@@ -568,13 +591,22 @@
     .lion-img{
         height: 550px;
     }
+    .fondito{
+        position: relative;
+        left: 120px;
+    }
 }
-@media (min-width:1100px) and (max-width:1150px){
+@mixin tablets-horizontal{
+    @media (min-width:1100px) {
+        @content;
+    }
+}
+@include tablets-horizontal(){
     .video--type{
         display: flex;
         position: relative;
-        left: 530px;
-        bottom: 460px;
+        left: 450px;
+        bottom: 620px;
         width: 520px;
         height: 420px;
     }
@@ -594,12 +626,17 @@
         bottom: 150px;
     }
 }
-@media (min-width:1150px) and (max-width:1250px){
+@mixin pantalla-panoramica{
+    @media (min-width:1150px) {
+        @content;
+    }
+}
+@include pantalla-panoramica(){
     .video--type{
         display: flex;
         position: relative;
-        left: 610px;
-        bottom: 510px;
+        left: 530px;
+        bottom: 610px;
         width: 480px;
         height: 350px;
     }
@@ -608,14 +645,22 @@
     }
     .equipamiento{
         position: relative;
-        left: -50px;
+        left: -30px;
         bottom: 300px;
     }
     .lion-img{
         height: $tamaño-agente;
     }
+}
+@mixin panoramicas{
+    @media (min-width:1170px) {
+        @content;
+    }
+}
+@include panoramicas(){
     .fondito{
-        position:relative ;
+    position:relative ;
         bottom: 250px;
+        left: -130px;
     }
 }
