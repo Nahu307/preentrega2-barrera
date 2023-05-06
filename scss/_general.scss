@@ -38,11 +38,6 @@ background-image:url(../img/Fondo\ r6.jpg);
 }
 h1{
     color: rgb(255, 255, 255);
-    resize: both;
-    overflow: auto;
-    height: 200px;
-    background-size: contain;
-    background-attachment: fixed;
     font-family: "Rainbow";
     font-size: 100px;
 }
@@ -50,7 +45,7 @@ h1{
 h2{
     color: rgba(255, 255, 255, 0.829);
     font-family: "Rainbow";
-    font-size: 70px;
+    font-size: 75px;
 }
 
 /*------TITULOS TERCIARIOS-------*/
