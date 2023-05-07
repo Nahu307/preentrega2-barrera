@@ -1786,7 +1786,7 @@ ul li a:hover {
     font-size: 15px;
     position: relative;
     right: 60px;
-    bottom: 95px;
+    bottom: 25px;
   }
   .fila img {
     width: 100%;
@@ -1809,38 +1809,6 @@ ul li a:hover {
 }
 @media (min-width: 385px) and (max-width: 420px) {
   .titulo-mapita {
-    margin-left: 23px;
-    font-size: 68px;
-  }
-  .parrafo-mapas {
-    color: rgba(255, 247, 247, 0.829);
-    font-family: "Glossy";
-    font-size: 15px;
-    position: relative;
-    right: 60px;
-    bottom: 95px;
-  }
-  .fila img {
-    width: 100%;
-  }
-  .columna {
-    flex: 25%;
-    padding: 10px;
-    padding-top: 30px;
-  }
-  .columna img {
-    margin: 5px;
-    width: 350px;
-    height: 200px;
-    transition: transform 0.3s ease;
-  }
-  #contain-maps {
-    position: relative;
-    right: 150px;
-  }
-}
-@media (min-width: 385px) and (max-width: 420px) {
-  .titulo-mapita {
     margin-left: 50px;
     font-size: 70px;
   }
@@ -1850,7 +1818,7 @@ ul li a:hover {
     font-size: 15px;
     position: relative;
     right: 60px;
-    bottom: 95px;
+    bottom: 25px;
   }
   .fila img {
     width: 100%;
@@ -1882,7 +1850,7 @@ ul li a:hover {
     font-size: 15px;
     position: relative;
     right: 60px;
-    bottom: 95px;
+    bottom: 25px;
   }
   .fila img {
     width: 100%;
@@ -1914,7 +1882,7 @@ ul li a:hover {
     font-size: 15px;
     position: relative;
     right: 60px;
-    bottom: 95px;
+    bottom: 25px;
   }
   .fila img {
     width: 100%;
@@ -1946,7 +1914,7 @@ ul li a:hover {
     font-size: 15px;
     position: relative;
     right: 60px;
-    bottom: 95px;
+    bottom: 15px;
   }
   .fila img {
     width: 100%;
@@ -1978,7 +1946,7 @@ ul li a:hover {
     font-size: 15px;
     position: relative;
     right: 60px;
-    bottom: 95px;
+    bottom: 15px;
   }
   .fila img {
     width: 100%;
@@ -2009,8 +1977,8 @@ ul li a:hover {
     font-family: "Glossy";
     font-size: 15px;
     position: relative;
-    right: 60px;
-    bottom: 95px;
+    right: 30px;
+    bottom: 5px;
   }
   .fila img {
     width: 100%;
@@ -2041,8 +2009,8 @@ ul li a:hover {
     font-family: "Glossy";
     font-size: 15px;
     position: relative;
-    right: 60px;
-    bottom: 95px;
+    right: 30px;
+    bottom: 5px;
   }
   .fila img {
     width: 100%;
@@ -2073,8 +2041,8 @@ ul li a:hover {
     font-family: "Glossy";
     font-size: 15px;
     position: relative;
-    right: 60px;
-    bottom: 95px;
+    right: 30px;
+    bottom: 5px;
   }
   .fila img {
     width: 100%;
@@ -2105,8 +2073,8 @@ ul li a:hover {
     font-family: "Glossy";
     font-size: 15px;
     position: relative;
-    right: 60px;
-    bottom: 95px;
+    right: 10px;
+    bottom: 5px;
   }
   .fila img {
     width: 100%;
@@ -2137,8 +2105,8 @@ ul li a:hover {
     font-family: "Glossy";
     font-size: 15px;
     position: relative;
-    right: 60px;
-    bottom: 95px;
+    right: 30px;
+    bottom: 5px;
   }
   .fila img {
     width: 100%;
@@ -2169,8 +2137,8 @@ ul li a:hover {
     font-family: "Glossy";
     font-size: 15px;
     position: relative;
-    right: 60px;
-    bottom: 95px;
+    right: 30px;
+    bottom: 5px;
   }
   .fila img {
     width: 100%;
