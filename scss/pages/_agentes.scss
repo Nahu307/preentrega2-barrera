@@ -1,10 +1,12 @@
 .equipamiento{
     text-align: center;
+    font-size: 4.5rem;
 }
 .titulo-historial{
+    font-size: 5.9rem;
     position: relative;
-    top: -800px;
-    left: 1350px;
+    top: -810px;
+    left: 1310px;
 }
 .fondito{
     background-color: grey;
@@ -17,11 +19,6 @@
     height: 100px;
     justify-content: center;
     padding-top: 45px;
-}
-.arma--principal{
-    font-family: R6;
-    position: relative;
-    right: 460px;
 }
 .video--type{
     display: flex;
@@ -45,17 +42,12 @@
     }
     .equipamiento{
         text-align: center;
-        font-size: 60px;
+        font-size: 3.75rem;
         position: relative;
         top: 60px;
     }
     .titulo-historial{
     display: none;
-    }
-    .titulo-historial{
-        position: relative;
-        top: -800px;
-        left: 1350px;
     }
     .fondito{
         background-color: grey;
@@ -72,22 +64,11 @@
         justify-content: center;
         padding-top: 45px;
     }
-    .arma--principal{
-        font-family: R6;
-        font-size: 30px;
-        position: relative;
-        right: 460px;
-    }
     .titulo-historial-lion{
         display: none;
     }
     .video--type{
         display: none;
-        position: absolute;
-        left: 60px;
-        bottom: 100px;
-        width: 250px;
-        height: 150px;
     } 
 }
 @media (min-width:400px) and (max-width:460px){
@@ -96,16 +77,13 @@
     }
     .equipamiento{
         text-align: center;
-        font-size: 60px;
+        font-size: 3.75rem;
         position: relative;
         top: 60px;
         left: 10px;
     }
     .titulo-historial{
         display: none;
-        position: relative;
-        top: -800px;
-        left: 1350px;
     }
     .lion-img{
         height:350px;
@@ -122,22 +100,11 @@
         justify-content: center;
         padding-top: 45px;
     }
-    .arma--principal{
-        font-family: R6;
-        font-size: 30px;
-        position: relative;
-        right: 460px;
-    }
     .titulo-historial-lion{
         display: none;
     }
     .video--type{
         display: none;
-        position: absolute;
-        left: 100px;
-        bottom: 100px;
-        width: 250px;
-        height: 150px;
     } 
 }
 @media (min-width:460px) and (max-width:510px){
@@ -146,16 +113,13 @@
     }
     .equipamiento{
         text-align: center;
-        font-size: 60px;
+        font-size: 3.75rem;
         position: relative;
         top: 60px;
         left: 15px;
     }
     .titulo-historial{
         display: none;
-        position: relative;
-        top: -800px;
-        left: 1350px;
     }
     .lion-img{
         height:350px;
@@ -177,12 +141,6 @@
     }
     .video--type{
         display: none;
-        position: absolute;
-        left: 110px;
-        bottom: -50px;
-        width: 250px;
-        height: 150px;
-        padding: 60px;
     } 
 }
 @media (min-width:510px) and (max-width:550px){
@@ -191,7 +149,7 @@
     }
     .equipamiento{
         text-align: center;
-        font-size: 60px;
+        font-size: 3.75rem;
         position: relative;
         top: 60px;
         left: 27px;
@@ -214,11 +172,6 @@
     }
     .video--type{
         display: none;
-        position: absolute;
-        left: 155px;
-        bottom: -90px;
-        width: 250px;
-        height: 150px;
     } 
 }
 @media (min-width:550px) and (max-width:600px){
@@ -228,6 +181,9 @@
     .titulo-historial{
         display: none;
     }
+    .equipamiento{
+        font-size: 3.75rem;
+    }
     .titulo-historial-lion{
         display: none;
     }
@@ -236,11 +192,6 @@
     }
     .video--type{
         display: none;
-        position: absolute;
-        left: 155px;
-        bottom: -90px;
-        width: 250px;
-        height: 150px;
     } 
 }
 @media (min-width:600px) and (max-width:630px){
@@ -266,7 +217,7 @@
     }
     .equipamiento{
         text-align: center;
-        font-size: 70px;
+        font-size: 4.375rem;
         position: relative;
         top: 10px;
         left: 10px;
@@ -304,7 +255,7 @@
     }
     .equipamiento{
         text-align: center;
-        font-size: 70px;
+        font-size: 4.375rem;
         position: relative;
         top: -180px;
         left: -15px;
@@ -339,7 +290,7 @@
     }
     .equipamiento{
         text-align: center;
-        font-size: 70px;
+        font-size: 4.375rem;
         position: relative;
         top: -180px;
         left: -15px;
@@ -374,7 +325,7 @@
     }
     .equipamiento{
         text-align: center;
-        font-size: 75px;
+        font-size: 4.688rem;
         position: relative;
         top: -180px;
         left: -15px;
@@ -415,7 +366,7 @@
     }
     .equipamiento{
         text-align: center;
-        font-size: 80px;
+        font-size: 5rem;
         position: relative;
         top: -180px;
         left: -10px;
@@ -453,7 +404,7 @@
     }
     .equipamiento{
         text-align: center;
-        font-size: 80px;
+        font-size: 5rem;
         position: relative;
         top: -180px;
         left: -10px;
@@ -492,7 +443,7 @@
     }
     .equipamiento{
         text-align: center;
-        font-size: 82px;
+        font-size: 5.125rem;
         position: relative;
         top: -180px;
         left: -20px;

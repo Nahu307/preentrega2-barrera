@@ -30,7 +30,7 @@
         height: 200px;
         transition: transform .3s ease;
         &:hover{
-            transform: scale(1.1);
+            transform: scale(1.3);
         }
     }
 }
@@ -53,7 +53,7 @@
 @media (min-width:350px) and (max-width:385px){
     .titulo-mapita{
         margin-left: 37px;
-        font-size: 63px;
+        font-size: 3.75rem;
     }
     .parrafo-mapas{
         color: rgba(255, 247, 247, 0.829);
@@ -74,20 +74,20 @@
         padding-top: 30px;
         img{
             margin: 5px;
-            width: 350px;
-            height: 200px;
+            width: 200px;
+            height: 100px;
             transition: transform .3s ease;
         }
     }
     #contain-maps{
         position: relative;
-        right: 170px;
+        right: 80px;
     }
 }
 @media (min-width:385px) and (max-width:420px){
     .titulo-mapita{
         margin-left: 50px;
-        font-size: 70px;
+        font-size: 4.063rem;
     }
     .parrafo-mapas{
         color: rgba(255, 247, 247, 0.829);
@@ -108,20 +108,20 @@
         padding-top: 30px;
         img{
             margin: 5px;
-            width: 350px;
-            height: 200px;
+            width: 220px;
+            height: 120px;
             transition: transform .3s ease;
         }
     }
     #contain-maps{
         position: relative;
-        right: 145px;
+        right: 90px;
     }
 }
 @media (min-width:420px) and (max-width:470px){
     .titulo-mapita{
         margin-left: 50px;
-        font-size: 70px;
+        font-size: 4.25rem;
     }
     .parrafo-mapas{
         color: rgba(255, 247, 247, 0.829);
@@ -142,20 +142,20 @@
         padding-top: 30px;
         img{
             margin: 5px;
-            width: 350px;
-            height: 200px;
+            width: 300px;
+            height: 170px;
             transition: transform .3s ease;
         }
     }
     #contain-maps{
         position: relative;
-        right: 125px;
+        right: 105px;
     }
 }
 @media (min-width:470px) and (max-width:500px){
     .titulo-mapita{
         margin-left: 50px;
-        font-size: 70px;
+        font-size: 4.375rem;
     }
     .parrafo-mapas{
         color: rgba(255, 247, 247, 0.829);
@@ -189,7 +189,7 @@
 @media (min-width:500px) and (max-width:570px){
     .titulo-mapita{
         margin-left: 80px;
-        font-size: 75px;
+        font-size: 4.375rem;
     }
     .parrafo-mapas{
         color: rgba(255, 247, 247, 0.829);
@@ -223,7 +223,7 @@
 @media (min-width:570px) and (max-width:640px){
     .titulo-mapita{
         margin-left: 80px;
-        font-size: 75px;
+        font-size: 4.688rem;
     }
     .parrafo-mapas{
         color: rgba(255, 247, 247, 0.829);
@@ -257,7 +257,7 @@
 @media (min-width:640px) and (max-width:700px){
     .titulo-mapita{
         margin-left: 150px;
-        font-size: 75px;
+        font-size: 4.688rem;
     }
     .parrafo-mapas{
         color: rgba(255, 247, 247, 0.829);
@@ -291,7 +291,7 @@
 @media (min-width:700px) and (max-width:764px){
     .titulo-mapita{
         margin-left: 190px;
-        font-size: 75px;
+        font-size: 4.688rem;
     }
     .parrafo-mapas{
         color: rgba(255, 247, 247, 0.829);
@@ -325,7 +325,7 @@
 @media (min-width:764px) and (max-width:864px){
     .titulo-mapita{
         margin-left: 230px;
-        font-size: 75px;
+        font-size: 4.688rem;
     }
     .parrafo-mapas{
         color: rgba(255, 247, 247, 0.829);
@@ -359,7 +359,7 @@
 @media (min-width:864px) and (max-width:904px){
     .titulo-mapita{
         margin-left: 240px;
-        font-size: 95px;
+        font-size: 5.938rem;
     }
     .parrafo-mapas{
         color: rgba(255, 247, 247, 0.829);
@@ -393,7 +393,7 @@
 @media (min-width:904px) and (max-width:1000px){
     .titulo-mapita{
         margin-left: 240px;
-        font-size: 95px;
+        font-size: 5.938rem;
     }
     .parrafo-mapas{
         color: rgba(255, 247, 247, 0.829);
@@ -427,7 +427,7 @@
 @media (min-width:1000px) and (max-width:1200px){
     .titulo-mapita{
         margin-left: 320px;
-        font-size: 95px;
+        font-size: 5.938rem;
     }
     .parrafo-mapas{
         color: rgba(255, 247, 247, 0.829);
@@ -461,7 +461,7 @@
 @media (min-width:1200px) and (max-width:1250px){
     .titulo-mapita{
         margin-left: 430px;
-        font-size: 95px;
+        font-size: 5.938rem;
     }
     #contain-maps{
         position: relative;
