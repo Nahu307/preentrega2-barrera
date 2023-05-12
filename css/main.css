@@ -368,11 +368,6 @@ ul li a:hover {
   .lion-img {
     height: 300px;
   }
-  .armas {
-    height: 100px;
-    justify-content: center;
-    padding-top: 45px;
-  }
   .titulo-historial-lion {
     display: none;
   }
@@ -389,7 +384,6 @@ ul li a:hover {
     font-size: 3.75rem;
     position: relative;
     top: 60px;
-    left: 10px;
   }
   .titulo-historial {
     display: none;
@@ -403,11 +397,6 @@ ul li a:hover {
     height: 110px;
     margin-left: 75px;
     border: solid 5px grey;
-  }
-  .armas {
-    height: 100px;
-    justify-content: center;
-    padding-top: 45px;
   }
   .titulo-historial-lion {
     display: none;
@@ -425,7 +414,6 @@ ul li a:hover {
     font-size: 3.75rem;
     position: relative;
     top: 60px;
-    left: 15px;
   }
   .titulo-historial {
     display: none;
@@ -440,11 +428,6 @@ ul li a:hover {
     margin-left: 95px;
     border: solid 5px grey;
   }
-  .armas {
-    height: 100px;
-    justify-content: center;
-    padding-top: 45px;
-  }
   .titulo-historial-lion {
     display: none;
   }
@@ -457,11 +440,9 @@ ul li a:hover {
     height: 680px;
   }
   .equipamiento {
-    text-align: center;
     font-size: 3.75rem;
     position: relative;
     top: 60px;
-    left: 27px;
   }
   .titulo-historial {
     display: none;
@@ -525,11 +506,7 @@ ul li a:hover {
     height: 450px;
   }
   .equipamiento {
-    text-align: center;
-    font-size: 4.375rem;
-    position: relative;
-    top: 10px;
-    left: 10px;
+    font-size: 3.75rem;
   }
   .fondito {
     background-color: grey;
@@ -786,8 +763,8 @@ ul li a:hover {
   }
   .equipamiento {
     position: relative;
-    left: 20px;
-    bottom: 250px;
+    bottom: 170px;
+    font-size: 5.125rem;
   }
   .fondito {
     position: relative;
@@ -952,7 +929,7 @@ ul li a:hover {
   .parrafo-battle {
     color: rgba(255, 247, 247, 0.829);
     font-family: "Glossy";
-    font-size: 14px;
+    font-size: 13px;
     padding-left: 20px;
     position: relative;
     top: -20px;
@@ -961,17 +938,12 @@ ul li a:hover {
     display: none;
   }
   .parrafo-battlepass {
-    color: rgba(255, 247, 247, 0.829);
-    font-family: "Glossy";
-    font-size: 14px;
-    position: relative;
-    left: 4px;
-    top: 0px;
+    display: none;
   }
   .item-battle {
     color: rgba(255, 247, 247, 0.829);
     font-family: "Glossy";
-    font-size: 14px;
+    font-size: 13px;
     padding-left: 20px;
     position: relative;
     top: -20px;
@@ -984,7 +956,6 @@ ul li a:hover {
   }
   .titulo-brava {
     font-size: 4.388rem;
-    text-align: center;
     padding-top: 350px;
     margin: 0;
   }
@@ -996,7 +967,7 @@ ul li a:hover {
   .parrafito {
     color: rgba(255, 247, 247, 0.829);
     font-family: "Glossy";
-    font-size: 15px;
+    font-size: 13px;
     margin: 0;
     text-align: center;
   }
@@ -1008,7 +979,9 @@ ul li a:hover {
     left: 30px;
   }
   .mapa-battlepass {
-    height: 170px;
+    height: 130px;
+    position: relative;
+    left: 40px;
   }
 }
 @media (min-width: 410px) and (max-width: 468px) {
@@ -1029,12 +1002,7 @@ ul li a:hover {
     display: none;
   }
   .parrafo-battlepass {
-    color: rgba(255, 247, 247, 0.829);
-    font-family: "Glossy";
-    font-size: 15px;
-    position: relative;
-    left: 20px;
-    top: 0px;
+    display: none;
   }
   .item-battle {
     color: rgba(255, 247, 247, 0.829);
@@ -1076,7 +1044,9 @@ ul li a:hover {
     left: 55px;
   }
   .mapa-battlepass {
-    height: 200px;
+    height: 160px;
+    position: relative;
+    left: 20px;
   }
 }
 @media (min-width: 468px) and (max-width: 482px) {
@@ -1145,7 +1115,9 @@ ul li a:hover {
     left: 85px;
   }
   .mapa-battlepass {
-    height: 210px;
+    height: 170px;
+    position: relative;
+    left: 50px;
   }
 }
 @media (min-width: 482px) and (max-width: 510px) {
@@ -1171,12 +1143,7 @@ ul li a:hover {
     left: 30px;
   }
   .parrafo-battlepass {
-    color: rgba(255, 247, 247, 0.829);
-    font-family: "Glossy";
-    font-size: 0.875rem;
-    position: relative;
-    left: 8px;
-    top: 65px;
+    display: none;
   }
   .item-battle {
     color: rgba(255, 247, 247, 0.829);
@@ -1215,7 +1182,9 @@ ul li a:hover {
     left: 85px;
   }
   .mapa-battlepass {
-    height: 210px;
+    height: 170px;
+    position: relative;
+    left: 30px;
   }
 }
 @media (min-width: 510px) and (max-width: 600px) {
@@ -1233,12 +1202,7 @@ ul li a:hover {
     top: 30px;
   }
   .parrafo-battlepass {
-    color: rgba(255, 247, 247, 0.829);
-    font-family: "Glossy";
-    font-size: 15px;
-    position: relative;
-    left: 10px;
-    top: 65px;
+    display: none;
   }
   .battlepass-video {
     margin-left: 1px;
@@ -1288,7 +1252,9 @@ ul li a:hover {
     left: 130px;
   }
   .mapa-battlepass {
-    height: 230px;
+    height: 200px;
+    position: relative;
+    left: 25px;
   }
 }
 @media (min-width: 600px) and (max-width: 700px) {
@@ -1318,7 +1284,7 @@ ul li a:hover {
     font-family: "Glossy";
     font-size: 15px;
     position: relative;
-    left: 10px;
+    left: 0px;
     top: 65px;
   }
   .item-battle {
@@ -1360,7 +1326,9 @@ ul li a:hover {
     left: 175px;
   }
   .mapa-battlepass {
-    height: 260px;
+    height: 220px;
+    position: relative;
+    left: 35px;
   }
 }
 @media (min-width: 700px) and (max-width: 800px) {
@@ -1386,12 +1354,7 @@ ul li a:hover {
     left: 60px;
   }
   .parrafo-battlepass {
-    color: rgba(255, 247, 247, 0.829);
-    font-family: "Glossy";
-    font-size: 15px;
-    position: relative;
-    left: 5px;
-    top: 65px;
+    display: none;
   }
   .item-battle {
     color: rgba(255, 247, 247, 0.829);
@@ -1432,7 +1395,9 @@ ul li a:hover {
     left: 230px;
   }
   .mapa-battlepass {
-    height: 320px;
+    height: 250px;
+    position: relative;
+    left: 60px;
   }
 }
 @media (min-width: 800px) and (max-width: 900px) {
@@ -1458,12 +1423,7 @@ ul li a:hover {
     left: 130px;
   }
   .parrafo-battlepass {
-    color: rgba(255, 247, 247, 0.829);
-    font-family: "Glossy";
-    font-size: 15px;
-    position: relative;
-    left: 10px;
-    top: 65px;
+    display: none;
   }
   .item-battle {
     color: rgba(255, 247, 247, 0.829);
@@ -1503,7 +1463,9 @@ ul li a:hover {
     left: 280px;
   }
   .mapa-battlepass {
-    height: 360px;
+    height: 300px;
+    position: relative;
+    left: 50px;
   }
 }
 @media (min-width: 900px) and (max-width: 1024px) {
@@ -1529,12 +1491,7 @@ ul li a:hover {
     left: 250px;
   }
   .parrafo-battlepass {
-    color: rgba(255, 247, 247, 0.829);
-    font-family: "Glossy";
-    font-size: 15px;
-    position: relative;
-    left: 10px;
-    top: 65px;
+    display: none;
   }
   .item-battle {
     color: rgba(255, 247, 247, 0.829);
@@ -1574,7 +1531,7 @@ ul li a:hover {
     left: 310px;
   }
   .mapa-battlepass {
-    height: 430px;
+    height: 380px;
   }
 }
 @media (min-width: 1020px) and (max-width: 1100px) {
@@ -1600,12 +1557,7 @@ ul li a:hover {
     left: 300px;
   }
   .parrafo-battlepass {
-    color: rgba(255, 247, 247, 0.829);
-    font-family: "Glossy";
-    font-size: 15px;
-    position: relative;
-    left: 35px;
-    top: 65px;
+    display: none;
   }
   .item-battle {
     color: rgba(255, 247, 247, 0.829);
@@ -1645,7 +1597,7 @@ ul li a:hover {
     left: 370px;
   }
   .mapa-battlepass {
-    height: 480px;
+    height: 430px;
   }
 }
 @media (min-width: 1100px) and (max-width: 1200px) {
@@ -1671,12 +1623,7 @@ ul li a:hover {
     left: 340px;
   }
   .parrafo-battlepass {
-    color: rgba(255, 247, 247, 0.829);
-    font-family: "Glossy";
-    font-size: 15px;
-    position: relative;
-    left: 35px;
-    top: 65px;
+    display: none;
   }
   .item-battle {
     color: rgba(255, 247, 247, 0.829);
@@ -1716,7 +1663,9 @@ ul li a:hover {
     left: 370px;
   }
   .mapa-battlepass {
-    height: 480px;
+    height: 440px;
+    position: relative;
+    left: 30px;
   }
 }
 .elite-th {

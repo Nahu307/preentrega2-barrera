@@ -63,7 +63,7 @@
     .parrafo-battle{
         color: rgba(255, 247, 247, 0.829);
         font-family:"Glossy";
-        font-size: 14px;
+        font-size: 13px;
         padding-left: 20px;
         position: relative;
         top: -20px;
@@ -72,17 +72,12 @@
         display: none;
     }
     .parrafo-battlepass{
-        color: rgba(255, 247, 247, 0.829);
-        font-family:"Glossy";
-        font-size: 14px;
-        position: relative;
-        left: 4px;
-        top: 0px;
+        display: none;
     }
     .item-battle{
         color: rgba(255, 247, 247, 0.829);
         font-family:"Glossy";
-        font-size: 14px;
+        font-size: 13px;
         padding-left: 20px;
         position: relative;
         top: -20px;
@@ -95,7 +90,6 @@
     }
     .titulo-brava{
         font-size: 4.388rem;
-        text-align: center;
         padding-top: 350px;
         margin: 0;
     }
@@ -107,7 +101,7 @@
     .parrafito{
         color: rgba(255, 247, 247, 0.829);
         font-family:"Glossy";
-        font-size: 15px;
+        font-size: 13px;
         margin: 0;
         text-align: center;
     }
@@ -119,7 +113,9 @@
         left: 30px;
     }
     .mapa-battlepass{
-        height: 170px;
+        height: 130px;
+        position: relative;
+        left: 40px;
     }
 }
 @media (min-width:410px) and (max-width:468px){
@@ -140,12 +136,7 @@
         display: none;
     }
     .parrafo-battlepass{
-        color: rgba(255, 247, 247, 0.829);
-        font-family:"Glossy";
-        font-size: 15px;
-        position: relative;
-        left: 20px;
-        top: 0px;
+        display: none;
     }
     .item-battle{
         color: rgba(255, 247, 247, 0.829);
@@ -187,7 +178,9 @@
         left: 55px;
     }
     .mapa-battlepass{
-        height: 200px;
+        height: 160px;
+        position: relative;
+        left: 20px;
     }
 }
 @media (min-width:468px) and (max-width:482px){
@@ -256,7 +249,9 @@
         left: 85px;
     }
     .mapa-battlepass{
-        height: 210px;
+        height: 170px;
+        position: relative;
+        left: 50px;
     }
 }
 @media (min-width:482px) and (max-width:510px){
@@ -282,12 +277,7 @@
         left: 30px;
     }
     .parrafo-battlepass{
-        color: rgba(255, 247, 247, 0.829);
-        font-family:"Glossy";
-        font-size: 0.875rem;
-        position: relative;
-        left: 8px;
-        top: 65px;
+        display: none;
     }
     .item-battle{
         color: rgba(255, 247, 247, 0.829);
@@ -326,7 +316,9 @@
         left: 85px;
     }
     .mapa-battlepass{
-        height: 210px;
+        height: 170px;
+        position: relative;
+        left: 30px;
     }
 }
 @media (min-width:510px) and (max-width:600px){
@@ -344,12 +336,7 @@
         top: 30px;
     }
     .parrafo-battlepass{
-        color: rgba(255, 247, 247, 0.829);
-        font-family:"Glossy";
-        font-size: 15px;
-        position: relative;
-        left: 10px;
-        top: 65px;
+        display: none;
     }
     .battlepass-video{
         margin-left: 1px;
@@ -399,7 +386,9 @@
         left: 130px;
     }
     .mapa-battlepass{
-        height: 230px;
+        height: 200px;
+        position: relative;
+        left: 25px;
     }
 }
 @media (min-width:600px) and (max-width:700px){
@@ -429,7 +418,7 @@
         font-family:"Glossy";
         font-size: 15px;
         position: relative;
-        left: 10px;
+        left: 0px;
         top: 65px;
     }
     .item-battle{
@@ -471,7 +460,9 @@
         left: 175px;
     }
     .mapa-battlepass{
-        height: 260px;
+        height: 220px;
+        position: relative;
+        left: 35px;
     }
 }
 @media (min-width:700px) and (max-width:800px){
@@ -497,12 +488,7 @@
         left: 60px;
     }
     .parrafo-battlepass{
-        color: rgba(255, 247, 247, 0.829);
-        font-family:"Glossy";
-        font-size: 15px;
-        position: relative;
-        left: 5px;
-        top: 65px;
+        display: none;
     }
     .item-battle{
         color: rgba(255, 247, 247, 0.829);
@@ -543,7 +529,9 @@
         left: 230px;
     }
     .mapa-battlepass{
-        height: 320px;
+        height: 250px;
+        position: relative;
+        left: 60px;
     }
 }
 @media (min-width:800px) and (max-width:900px){
@@ -569,12 +557,7 @@
         left: 130px;
     }
     .parrafo-battlepass{
-        color: rgba(255, 247, 247, 0.829);
-        font-family:"Glossy";
-        font-size: 15px;
-        position: relative;
-        left: 10px;
-        top: 65px;
+        display: none;
     }
     .item-battle{
         color: rgba(255, 247, 247, 0.829);
@@ -614,7 +597,9 @@
         left: 280px;
     }
     .mapa-battlepass{
-        height: 360px;
+        height: 300px;
+        position: relative;
+        left: 50px;
     }
 }
 @media (min-width:900px) and (max-width:1024px){
@@ -640,12 +625,7 @@
         left: 250px;
     }
     .parrafo-battlepass{
-        color: rgba(255, 247, 247, 0.829);
-        font-family:"Glossy";
-        font-size: 15px;
-        position: relative;
-        left: 10px;
-        top: 65px;
+        display: none;
     }
     .item-battle{
         color: rgba(255, 247, 247, 0.829);
@@ -685,7 +665,7 @@
         left: 310px;
     }
     .mapa-battlepass{
-        height: 430px;
+        height: 380px;
     }
 }
 @media (min-width:1020px) and (max-width:1100px){
@@ -711,12 +691,7 @@
         left: 300px;
     }
     .parrafo-battlepass{
-        color: rgba(255, 247, 247, 0.829);
-        font-family:"Glossy";
-        font-size: 15px;
-        position: relative;
-        left: 35px;
-        top: 65px;
+        display: none;
     }
     .item-battle{
         color: rgba(255, 247, 247, 0.829);
@@ -756,7 +731,7 @@
         left: 370px;
     }
     .mapa-battlepass{
-        height: 480px;
+        height: 430px;
     }
 }
 @media (min-width:1100px) and (max-width:1200px){
@@ -782,12 +757,7 @@
         left: 340px;
     }
     .parrafo-battlepass{
-        color: rgba(255, 247, 247, 0.829);
-        font-family:"Glossy";
-        font-size: 15px;
-        position: relative;
-        left: 35px;
-        top: 65px;
+        display: none;
     }
     .item-battle{
         color: rgba(255, 247, 247, 0.829);
@@ -827,7 +797,9 @@
         left: 370px;
     }
     .mapa-battlepass{
-        height: 480px;
+        height: 440px;
+        position: relative;
+        left: 30px;
     }
 }
 
